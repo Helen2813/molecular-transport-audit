@@ -12,6 +12,30 @@
       "regression_class": "exact_artifact"
     },
     {
+    "id": "frozen_strict_gene_weights",
+    "axis": "program_freeze",
+    "source_path": "results/tables/GSE238110_frozen_transfer_gene_weights_strict.csv",
+    "source_script": "scripts/21_finalize_canine_transfer_programs_FIXED_V2.py",
+    "expected_script_version": "21-fixed-ortholog-qc-v2",
+    "regression_class": "exact_artifact"
+    },
+    {
+      "id": "frozen_broad_gene_weights",
+      "axis": "program_freeze",
+      "source_path": "results/tables/GSE238110_frozen_transfer_gene_weights_broad.csv",
+      "source_script": "scripts/21_finalize_canine_transfer_programs_FIXED_V2.py",
+      "expected_script_version": "21-fixed-ortholog-qc-v2",
+      "regression_class": "exact_artifact"
+    },
+    {
+      "id": "frozen_scoring_specification",
+      "axis": "program_freeze",
+      "source_path": "results/tables/GSE238110_frozen_transfer_scoring_specification.csv",
+      "source_script": "scripts/21_finalize_canine_transfer_programs_FIXED_V2.py",
+      "expected_script_version": "21-fixed-ortholog-qc-v2",
+      "regression_class": "exact_artifact"
+    },
+    {
       "id": "projectwide_primary_multiplicity",
       "axis": "clinical_outcome_transport",
       "source_path": "results/tables/paper4_projectwide_primary_multiplicity.csv",

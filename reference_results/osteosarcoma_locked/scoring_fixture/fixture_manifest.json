@@ -1,0 +1,78 @@
+{
+  "fixture_version": "0.1.0",
+  "builder_version": "0.1.0",
+  "generated_at_utc": "2026-08-07T23:22:01.279966+00:00",
+  "source_repository": "paper4_sarcoma_dog",
+  "source_repository_head": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+  "cohort": "TARGET_OS",
+  "primary_modules": [
+    "M34",
+    "M11",
+    "M24",
+    "M40"
+  ],
+  "scoring_contract": {
+    "primary_score": "strict_one_to_one_signed_mean_z",
+    "secondary_score": "strict_one_to_one_canine_pca_weighted_z",
+    "minimum_genes": 3,
+    "minimum_fraction": 0.5,
+    "gene_standardization": "within_cohort_gene_zscore_ddof1",
+    "score_standardization": "within_cohort_score_zscore_ddof1"
+  },
+  "source_files": {
+    "expression": {
+      "path": "data\\processed\\human_validation\\TARGET_OS_expression_log2_gene_symbol.csv",
+      "sha256": "0cde0d000cafa4acb40f42f90bcf6b8e82ece92e5da8db1839bf99007eb5e52f",
+      "manifest_expected_sha256": "0cde0d000cafa4acb40f42f90bcf6b8e82ece92e5da8db1839bf99007eb5e52f",
+      "manifest_hash_verified": true
+    },
+    "legacy_scores": {
+      "path": "data\\processed\\human_validation\\TARGET_OS_frozen_transfer_scores.csv",
+      "sha256": "21c96bd5cac16b51ed4ddaedbe03486827656d3d56a0f2d0c5786e3a732b1c5f",
+      "manifest_expected_sha256": "21c96bd5cac16b51ed4ddaedbe03486827656d3d56a0f2d0c5786e3a732b1c5f",
+      "manifest_hash_verified": true
+    },
+    "strict_weights": {
+      "path": "results\\tables\\GSE238110_frozen_transfer_gene_weights_strict.csv",
+      "sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91"
+    },
+    "scoring_specification": {
+      "path": "results\\tables\\GSE238110_frozen_transfer_scoring_specification.csv",
+      "sha256": "562aab92caa949691f43b0285cf2585c98008e78c62d2c15477a6d156d7f47a7"
+    },
+    "preparation_manifest": {
+      "path": "results\\tables\\human_validation_cohort_preparation_manifest.json",
+      "sha256": "8b018a5cf85c652c491de7c84a0ef731b38e53fdc4b9111a71ec45c6cbbba5c8"
+    }
+  },
+  "fixture_summary": {
+    "n_samples": 88,
+    "n_expression_genes": 287,
+    "n_weight_rows": 287,
+    "n_expected_score_columns": 8,
+    "n_missing_requested_genes": 0,
+    "missing_requested_genes": []
+  },
+  "fixture_files": {
+    "TARGET_OS_primary_strict_expression.csv": {
+      "sha256": "2b89a23304fe94385b5ad9b083211a4e2900c1f7b9152e50e6841cdc1d4be98d",
+      "size_bytes": 462307
+    },
+    "primary_strict_gene_weights.csv": {
+      "sha256": "c75fe6edd729ad0042ea04b15c55060edc10ec7b1c0d309a9f91383cba615bb6",
+      "size_bytes": 43460
+    },
+    "TARGET_OS_expected_primary_scores.csv": {
+      "sha256": "dc80741ef2b5662d12425360ec2dd01ab52f6a66c4768c80811d135b0dc88f76",
+      "size_bytes": 15483
+    },
+    "TARGET_OS_expected_strict_coverage.csv": {
+      "sha256": "5c46aa04df8ee85f83c365fc6731e84f00553eca90e05b090e2c8802dc61c30f",
+      "size_bytes": 2232
+    },
+    "primary_scoring_specification.csv": {
+      "sha256": "5cbedbf9f9608649a3edb61a59b8f6c498bb3eb8c612395f46d21ac6fd57c455",
+      "size_bytes": 5156
+    }
+  }
+}

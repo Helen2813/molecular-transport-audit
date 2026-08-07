@@ -6,13 +6,16 @@ These artifacts are regression targets for the reusable Molecular Transport Audi
 
 - Registry version: `0.1.0`
 - Source repository HEAD at build: `aba92fa57af165b2ef433ae9e581a9278a04e7bf`
-- Artifact count: **21**
+- Artifact count: **24**
 
 ## Artifacts
 
 | ID | Axis | Regression class | Source SHA-256 |
 |---|---|---|---|
 | `frozen_canine_program_manifest` | program_freeze | exact_artifact | `fcd34b985ea9` |
+| `frozen_strict_gene_weights` | program_freeze | exact_artifact | `4f065aa4c4ed` |
+| `frozen_broad_gene_weights` | program_freeze | exact_artifact | `ee5f661677b1` |
+| `frozen_scoring_specification` | program_freeze | exact_artifact | `562aab92caa9` |
 | `projectwide_primary_multiplicity` | clinical_outcome_transport | deterministic_table | `a1bf689c3adc` |
 | `human_primary_outcomes` | clinical_outcome_transport | exact_artifact | `48881f473c4e` |
 | `human_structural_preservation_manifest` | molecular_representation_preservation | exact_artifact | `4abe64e72bfd` |

@@ -1,0 +1,28 @@
+{
+  "id": "frozen_scoring_specification",
+  "axis": "program_freeze",
+  "regression_class": "exact_artifact",
+  "source_repository": "paper4_sarcoma_dog",
+  "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+  "source_artifact": {
+    "path": "results/tables/GSE238110_frozen_transfer_scoring_specification.csv",
+    "sha256": "562aab92caa949691f43b0285cf2585c98008e78c62d2c15477a6d156d7f47a7",
+    "size_bytes": 14951,
+    "git_commit": "364e8b8e9ce54ac701b4d20455636e25b37289ff",
+    "git_commit_date": "2026-08-05T20:27:32-04:00",
+    "git_commit_subject": "finish first level of analysis"
+  },
+  "source_script": {
+    "path": "scripts/21_finalize_canine_transfer_programs_FIXED_V2.py",
+    "declared_version": "21-fixed-ortholog-qc-v2",
+    "sha256": "8da88bbb0fef845dc2c964c24eee21f4382c90e86b98f55fb0b66b3c7af5205c",
+    "git_commit": "364e8b8e9ce54ac701b4d20455636e25b37289ff",
+    "git_commit_date": "2026-08-05T20:27:32-04:00",
+    "git_commit_subject": "finish first level of analysis"
+  },
+  "registry_copy": {
+    "path": "reference_results/osteosarcoma_locked/artifacts/frozen_scoring_specification__GSE238110_frozen_transfer_scoring_specification.csv",
+    "sha256": "562aab92caa949691f43b0285cf2585c98008e78c62d2c15477a6d156d7f47a7",
+    "size_bytes": 14951
+  }
+}
