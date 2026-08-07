@@ -1,0 +1,1921 @@
+{
+  "snapshot_tool_version": "0.1.0",
+  "generated_at_utc": "2026-08-07T20:40:01.466411+00:00",
+  "source_repository": "paper4_sarcoma_dog",
+  "source_repository_path": "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog",
+  "remote": "https://github.com/Helen2813/paper4_sarcoma_dog.git",
+  "branch": "main",
+  "head_commit": "2e82099920ccb169527543a7435d33977f8caf71",
+  "worktree_dirty": true,
+  "status_entries": [
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "manuscript/",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "permutedStats-actualModules.RData",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/figures/gse239948_external_canine/",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/figures/gse39055_necrosis/",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/figures/paper4_final_locked/",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/figures/single_cell_localization/",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/figures/single_cell_localization_six_dogs/",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_celltype_rank_stability.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_celltype_rank_stability_estimable_only.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_celltype_rank_stability_six_dogs.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_celltype_score_summary.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_celltype_score_summary_estimable_only.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_celltype_score_summary_six_dogs.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_confirmed_library_to_dog_mapping.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_dog_celltype_pseudobulk_scores.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_dog_compartment_scores.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_gene_celltype_localization.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_localization_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_localization_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_low_cardinality_metadata_audit.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_replicate_audit_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_replicate_audit_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_replicate_cell_counts.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_replicate_metadata_relationships.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_score_gene_coverage.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_six_dog_cell_counts.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_six_dog_celltype_pseudobulk_scores.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_six_dog_compartment_scores.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_six_dog_localization_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_six_dog_localization_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_targeted_eight_sample_vs_six_dog_comparison.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_targeted_localization_tests.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_targeted_localization_tests_six_dogs.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Ammons_scRNA_targeted_sign_consistency_audit.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_DOG2_exact_sample_identifier_overlap.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_DOG2_expression_fingerprint_gene_audit.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_DOG2_expression_fingerprint_nearest_neighbors.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_DOG2_independence_summary.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_DOG2_sample_identifier_audit.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_WGCNA_module_preservation_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_WGCNA_module_preservation_input_universe.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_WGCNA_module_preservation_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_WGCNA_module_preservation_signed.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_blind_de_novo_rediscovery_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_blind_de_novo_rediscovery_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_blind_discovered_module_membership.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_blind_discovered_module_subsample_stability.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_blind_discovered_module_summary.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_blind_discovery_gene_universe.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_blind_frozen_program_random_controls.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_blind_frozen_program_rediscovery.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_frozen_program_coverage.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_gene_mapping.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_identifier_pair_audit.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_input_audit.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_module_gene_leave_one_out.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_module_score_reliability.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_module_structure_preservation.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_random_panel_controls.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_representation_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_representation_classification.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE239948_external_representation_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE39055_necrosis_M40_assay_rule_sensitivity.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE39055_necrosis_M40_comparator_sensitivity.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE39055_necrosis_M40_leave_one_out.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE39055_necrosis_M40_score_correlations.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE39055_necrosis_analysis_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE39055_necrosis_analysis_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE39055_necrosis_analysis_summary.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/GSE39055_necrosis_primary_exploratory.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Paper4_final_external_canine_triangulation_table.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Paper4_final_figure_captions.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Paper4_final_human_primary_outcomes_table.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Paper4_final_main_results_table.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Paper4_final_main_results_table.tex",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Paper4_final_manuscript_assets_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Paper4_final_manuscript_assets_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Paper4_final_representation_outcome_typology_table.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/Paper4_final_results_section_outline.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_GSE239948_preservation_method_concordance.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_external_canine_evidence_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_external_canine_evidence_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_final_analysis_lock_README.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_final_analysis_lock_manifest.json",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_external_canine_results_sentences.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_external_canine_triangulation.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_final_claim_guardrails.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_final_module_interpretation.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_final_results_sentences.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_independent_canine_representation.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_multidimensional_transport_evidence_final.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_multidimensional_transport_evidence_with_single_cell.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_multidimensional_transport_evidence_with_single_cell_and_external_canine.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_multidimensional_transport_evidence_with_single_cell_six_dogs.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_single_cell_biological_localization.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_single_cell_biological_localization_six_dogs.csv",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_single_cell_results_sentences.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "results/tables/paper4_locked_single_cell_results_sentences_six_dogs.txt",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/42_score_ammons_single_cell_localization.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/43_audit_lock_ammons_single_cell.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/44_recompute_ammons_six_dog_localization.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/45_dog2_pathological_necrosis_response.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/46_gse239948_external_canine_representation.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/46_gse239948_external_canine_representation_v2.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/47_audit_and_lock_gse239948_external_canine_evidence.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/48_gse39055_pathological_necrosis_response.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/49_gse239948_blind_de_novo_rediscovery.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/49_gse239948_blind_de_novo_rediscovery_FIXED_V2.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/50_wgcna_module_preservation_benchmark.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/51_final_lock_external_canine_triangulation.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/52_generate_final_paper4_manuscript_assets.py",
+      "original_path": ""
+    },
+    {
+      "index_status": "?",
+      "worktree_status": "?",
+      "path": "scripts/53_generate_paper4_manuscript_draft.py",
+      "original_path": ""
+    }
+  ],
+  "changed_files": [
+    {
+      "path": "manuscript/",
+      "exists": true,
+      "is_file": false,
+      "size_bytes": null,
+      "sha256": null,
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "permutedStats-actualModules.RData",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 160236,
+      "sha256": "7b65a5a77d772bd5bbd84f2b6439ec0b9b76344002b23759c29b9278b6382b71",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/figures/gse239948_external_canine/",
+      "exists": true,
+      "is_file": false,
+      "size_bytes": null,
+      "sha256": null,
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/figures/gse39055_necrosis/",
+      "exists": true,
+      "is_file": false,
+      "size_bytes": null,
+      "sha256": null,
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/figures/paper4_final_locked/",
+      "exists": true,
+      "is_file": false,
+      "size_bytes": null,
+      "sha256": null,
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/figures/single_cell_localization/",
+      "exists": true,
+      "is_file": false,
+      "size_bytes": null,
+      "sha256": null,
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/figures/single_cell_localization_six_dogs/",
+      "exists": true,
+      "is_file": false,
+      "size_bytes": null,
+      "sha256": null,
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_celltype_rank_stability.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 67028,
+      "sha256": "07f8337eeaa33e59bef505b9e931fc6645464313f084e03d35de5ce507d7c70e",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_celltype_rank_stability_estimable_only.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 55236,
+      "sha256": "da630218544b382da663c8e90b21c81675e880be1cdd8eab2dd3e91a4ecd6f00",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_celltype_rank_stability_six_dogs.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 55881,
+      "sha256": "5b0af4bcf4c1e80c506d9b62a458458e7ddab6e1d04855b428557e72271fbd66",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_celltype_score_summary.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 148830,
+      "sha256": "bb9722efe5fd8461f5d4fb5837659d4fe9d8a79a470243c73a096fc2c6fddf1f",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_celltype_score_summary_estimable_only.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 143309,
+      "sha256": "ed8c017e46ad39e99c2578870a60b02aa9814740103dd574648238d38152ba3e",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_celltype_score_summary_six_dogs.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 147450,
+      "sha256": "ea1675623fe6c9da7370ccbca8ad1ff0d9546957f0bcef25923a4ae7831b3ea9",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_confirmed_library_to_dog_mapping.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 251,
+      "sha256": "19432f4696ef8fd4e11f598f8fd4fe8b793d8edc9e396489e35ad0b4d326c08e",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_dog_celltype_pseudobulk_scores.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 186462,
+      "sha256": "53f917ddd151c65d21da54b0668e68cc31b7bdb03b25fe13217384f31dbe6195",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_dog_compartment_scores.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 13234,
+      "sha256": "f9a7cc1ab8807db12f791543a4f0ec9b39da7066d670df01789676c9506a0041",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_gene_celltype_localization.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 594519,
+      "sha256": "44ff18ea215ed9175077c86d361baa0126471f2cd1c8d4d7393ac67c74859aa1",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_localization_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 5840,
+      "sha256": "d257d05b67e7ba75d5fe2479faed73892ace84449b16d8c42195004424e5de3f",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_localization_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 8747,
+      "sha256": "8fab4af51f41ce6f178e5a98075897f3411602ec4a5450e2ea567d99d41fdbef",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_low_cardinality_metadata_audit.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 586,
+      "sha256": "f9990fb2e88c978a34b4fdaae507028f8b4abd501239dbe11a8140641ba58f4f",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_replicate_audit_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1817,
+      "sha256": "ac60f985ecffea4c788b7ab1c5bb4ec36f2ecdaf4797e75b4ab0bf6ef314db18",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_replicate_audit_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 5084,
+      "sha256": "7a228ef1ebd47210a6144992e10fd4fd1fdbe5315aa362c2717125dba0415e1d",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_replicate_cell_counts.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 441,
+      "sha256": "7dd5b0a00a71630e4d6a196c4870687ec892883310fdb0a064134efdc9fbf93b",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_replicate_metadata_relationships.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 289,
+      "sha256": "df5532e6c3121934cc1d4c9b9b109bfb9fea99dba25d39ebf12e643472c64c14",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_score_gene_coverage.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 502,
+      "sha256": "13ae84b614bc12dd08ef47485a5cf70ff56c74df6c43ca91d7806ee3a283cf49",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_six_dog_cell_counts.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 227,
+      "sha256": "92951d6b30a238b3856e009afe7c64427eba895959a003418ca0f78d08e9fe0c",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_six_dog_celltype_pseudobulk_scores.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 153024,
+      "sha256": "976007babfc4f6f407a40d673c8a6fe4bb0317c8ddaf66b82970a67de174adf6",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_six_dog_compartment_scores.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 10894,
+      "sha256": "a3dda4b5a0bc986c3404427c4dba5007a682534856d0122b30069606b1d165ba",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_six_dog_localization_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 4494,
+      "sha256": "c66133bb02b994a7c06ee112a3607d05ece1bcd0f36299c8f9a5c5b4519699fe",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_six_dog_localization_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 6536,
+      "sha256": "9bd7cec81c817ce04eb49a43d9a516f36c16a419d0547ef92ec92f3a480eac0d",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_targeted_eight_sample_vs_six_dog_comparison.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2087,
+      "sha256": "c198453f93f0005a34c4603b80df5b65c4d2d798980e5631188e057f26013630",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_targeted_localization_tests.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1802,
+      "sha256": "5f75eac6ccc4f12b710c02f4220e78ee13e5692a7c694097b4fbb0e9049f2203",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_targeted_localization_tests_six_dogs.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2038,
+      "sha256": "acc4f4b2486ddd7beffd15560bc76c1c993d7c56e4c21f6653bed0b8ca12c5fb",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Ammons_scRNA_targeted_sign_consistency_audit.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1040,
+      "sha256": "891cc42beabd3971d445da22b8f7cc1e6600ef4d3ba7b1fe0c03d066a17c306b",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_DOG2_exact_sample_identifier_overlap.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 55,
+      "sha256": "b1e15c0cedd3c5cdcecc85e2875f52063bf95aea18783ee0fad23d51846724b9",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_DOG2_expression_fingerprint_gene_audit.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1439916,
+      "sha256": "5803722bd5ab2be47fcc07ba4f8d4c2a54d8bfabf248236319612316039bd298",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_DOG2_expression_fingerprint_nearest_neighbors.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 8221,
+      "sha256": "7a428b91ba93d5270e61a883fd9fa79d3af1489e1c5e741b8311c6d339cc2e1d",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_DOG2_independence_summary.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 611,
+      "sha256": "cae0bf3b84d4426f2a693619e98cb716f655f4ac610690bef4085627db9d7cd4",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_DOG2_sample_identifier_audit.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 9696,
+      "sha256": "c4f98474534f98298bfe1dd0780f279b94895a772359a9aedf67e438de7d4b47",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_WGCNA_module_preservation_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1802,
+      "sha256": "2dc65bf0d0cf1fb7af7d4f0f03054c1b4ff2aa80a3b399905e66d6ca22ee2c60",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_WGCNA_module_preservation_input_universe.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 266528,
+      "sha256": "c92609c60f243fabd63993bc757c441a25ce8f432f46b49f53f2f6331c8d3834",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_WGCNA_module_preservation_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2852,
+      "sha256": "505fbe4316eac45a84527fc64986e81c51572d297856fc7eb712630f247d736d",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_WGCNA_module_preservation_signed.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 760,
+      "sha256": "0b98b6fe9e170bcbb207f23f274237a9a7d729598eaccb6b65c2b13ce9cb26dd",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_blind_de_novo_rediscovery_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2053,
+      "sha256": "f966641c1e87dcf4b6bd922406dc089ae481ada3988717a35b33221dbf2914a9",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_blind_de_novo_rediscovery_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2864,
+      "sha256": "b57dfff98c8de8f536f032763e32da9a7b4bd6d44dd1fb28e46e762e579f25bb",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_blind_discovered_module_membership.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 143129,
+      "sha256": "6c9287c871f52643166227c7457b8bf201456e7f82889137d3da5c549a5542cd",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_blind_discovered_module_subsample_stability.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 12998,
+      "sha256": "7f9a147427c9ffa6266cf54d2d433376feb28d768a7e6c9f8971a403692734e3",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_blind_discovered_module_summary.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 21543,
+      "sha256": "1260a33a86200176b78312270f8ee19e404897c27efb175e240883ecbc681bb7",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_blind_discovery_gene_universe.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 770594,
+      "sha256": "3820ab6e2cd6e7800b333c616da30c9c07ded02791b2984da7595d5c41e5cef8",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_blind_frozen_program_random_controls.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 387219,
+      "sha256": "aa25d096e9d1fa995055c8152ca476447055f0b4103907fd274a899c43805299",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_blind_frozen_program_rediscovery.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1652,
+      "sha256": "473895e65c3d9ec8367036e38e5be29209389f522b237afc5faa80c0aeca9446",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_frozen_program_coverage.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2008,
+      "sha256": "8a3f4d87bb9ebf1bf0d0a3c1c69f38e95d020abed5968a350f5c1db21578cf80",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_gene_mapping.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 602221,
+      "sha256": "56aff5474085f70f9ffb7b54024ba3ccbe40517bef5b48b09fc6e6b39fd034d3",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_identifier_pair_audit.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 953,
+      "sha256": "e8db70407048465652527a0f3e5d66637fbe141d811ce083b875b142396b2b88",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_input_audit.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1282,
+      "sha256": "fc70f9ef0219df153f56d224439bda07b4838935bca2c407f2e92b95a144923f",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_module_gene_leave_one_out.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 9323,
+      "sha256": "af1c55371afd999ae4d05a517d9bc3cd90a0ee9dad9437b7e94d1bdaf895a37d",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_module_score_reliability.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 588,
+      "sha256": "3a9412a26547cbb926eaccf38451373d82d6282884da5f6c0724be31825e183a",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_module_structure_preservation.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1022,
+      "sha256": "3a23d206704be171b611cae997e9ebeebbbaf943b8d6a6b09e821f4ed1c9e305",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_random_panel_controls.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 589,
+      "sha256": "472b0676317ed64e2e56d02772e918375b2b96013ed4bb7219f5dac18c979195",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_representation_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1786,
+      "sha256": "256253838f9f9b3034193762500f1498cb15548ecddaad1361c38596a04f952a",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_representation_classification.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1564,
+      "sha256": "b4c966b753d7fd8d4132445ec71a1365be3774aee8f2d745bff4cbed62aa812e",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE239948_external_representation_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 8222,
+      "sha256": "eae7ad5cd8f62a991e1fc50121adbf54c18ac7f1876a6ed0466dfefc7427c49a",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE39055_necrosis_M40_assay_rule_sensitivity.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 3805,
+      "sha256": "453c4be702cb2df84b041e1c9fa8eac065b24e3f62a6db8d84d3225d5d240c8a",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE39055_necrosis_M40_comparator_sensitivity.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2419,
+      "sha256": "c64740749e35f9416d1de1f106ab42c293dd14204287237d80aff208e8f6ee8d",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE39055_necrosis_M40_leave_one_out.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1852,
+      "sha256": "92ab0befac94b22032d5c14a5430eeb09492cf6d8581f4817f4b916a98355777",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE39055_necrosis_M40_score_correlations.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 864,
+      "sha256": "d3fdbbf35ad59e7d8409579eb50a4958e8d3f27d138dd3dde8e3b820a31e1ee1",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE39055_necrosis_analysis_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1962,
+      "sha256": "817ce93d40b7eb3cefb646416c2e397e2c057d01475ca9ab5d2f7f6b976d330f",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE39055_necrosis_analysis_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 3590,
+      "sha256": "d991439a91e33bf845c085cbc10869d59e4bc9fdaf81d8a5b30c758ad8979077",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE39055_necrosis_analysis_summary.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1124,
+      "sha256": "cf1b8930dc12c2db3fc5da78f33450be85579deef9ce35a2f1e6eea98b8b323c",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/GSE39055_necrosis_primary_exploratory.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2569,
+      "sha256": "99e59a6dd677872f9e659465b48ef8ca704699f3a9158f3cfcad6c08ce5c3db9",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Paper4_final_external_canine_triangulation_table.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 6170,
+      "sha256": "196dace12b765f7442662a5c6ce3799bee912bce2da0aa52357114c0ed18feb0",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Paper4_final_figure_captions.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 3339,
+      "sha256": "577686d8755edac80bd9d0fe8c824d2c3788287e4b110d923ea869a615f90379",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Paper4_final_human_primary_outcomes_table.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1830,
+      "sha256": "48881f473c4ea9abd39308496e772d777937cd407cc0378e2a98148e731159cf",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Paper4_final_main_results_table.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1358,
+      "sha256": "f2325ad18ca40eec0b905557234a608b2ecacc52f851aaad3465f87201f77503",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Paper4_final_main_results_table.tex",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1335,
+      "sha256": "3dde348eafbd77d516f262291005b442b94d448a80ab994c83fc8c23f6a596cb",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Paper4_final_manuscript_assets_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1615,
+      "sha256": "175815ea71ed191e5f0dc3a1a4608c2ec38c13ad998d5e7a11c74807ed32e83c",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Paper4_final_manuscript_assets_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 7140,
+      "sha256": "28af0911ba8f2f50d5bd1a4ff2938c76d7e78df05109fa1369b36eb7510b919d",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Paper4_final_representation_outcome_typology_table.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2053,
+      "sha256": "53d49a96a70747f3b2d856cb69c916ac20d37456b2443acf8c119576648be06a",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/Paper4_final_results_section_outline.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1856,
+      "sha256": "09063c0634386747da2c73ea0fe2e2cd95a5e166c1897c59496160a686792e39",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_GSE239948_preservation_method_concordance.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2833,
+      "sha256": "016573a626a3812fd244541014d21af0073cf7dc9859deaea2103c126034dce0",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_external_canine_evidence_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2323,
+      "sha256": "6299da71c041f8a22780cc9396dcf5e77c11740900ee84b71209a9953da67411",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_external_canine_evidence_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 9546,
+      "sha256": "78459cfdb60847dacfc74f7aea9de2bb7b9a10dad0d64853cbffcf92001dc2a5",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_final_analysis_lock_README.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2122,
+      "sha256": "41f36f0946f965c4d20c94a05c3ec698b0d24dead51f14bc0992e7a918936ef8",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_final_analysis_lock_manifest.json",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 3653,
+      "sha256": "19e5d7332517811595b09602c65c89d007e6db138f5ea7bc76dd94c641686b46",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_external_canine_results_sentences.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 3079,
+      "sha256": "bfece38e90e0bd0cdd6bbc75d5bf557df387614216f1ec39c5a62e52c0fd1d3c",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_external_canine_triangulation.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 6170,
+      "sha256": "196dace12b765f7442662a5c6ce3799bee912bce2da0aa52357114c0ed18feb0",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_final_claim_guardrails.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 832,
+      "sha256": "e4bf802aaa9b5a8a02a56d03771280259c698729d9be93f814e65c1d52d07f8e",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_final_module_interpretation.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2355,
+      "sha256": "ccab4f6e11cea26556137e9dc53db79b1790a1a82bae0db04bf454b39fe82cce",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_final_results_sentences.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1719,
+      "sha256": "d4fa9f4c8f98eb8f431d15304e708acfe405b05b562d29d0e85e1f226e78241b",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_independent_canine_representation.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 4013,
+      "sha256": "642ee4b0a1e5a04a5cdefb3d03d5329bde5ce920f77939473f151e51b3241d89",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_multidimensional_transport_evidence_final.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 14576,
+      "sha256": "295daa735f335d06d83dc28e981d5e995711216e687524de3000b65f49296961",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_multidimensional_transport_evidence_with_single_cell.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 5671,
+      "sha256": "22738ed71c4d9a550ffbcd7ae2b030d77dcb0845765f42d2a2dcc87c1f03648a",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_multidimensional_transport_evidence_with_single_cell_and_external_canine.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 10851,
+      "sha256": "2fc1a71d9cf07bf0fd8516ea2c45668fa2622c1365338c249097181d3d5f307e",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_multidimensional_transport_evidence_with_single_cell_six_dogs.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 5329,
+      "sha256": "a096f3381e2854bf49499056ddd69f59791dd544fa94e61aeed01d0b80dc6537",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_single_cell_biological_localization.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2519,
+      "sha256": "9ac746cc177aad28067e358d538e845661f757d3c2b8f4f7ebbae4e242b694fa",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_single_cell_biological_localization_six_dogs.csv",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 2170,
+      "sha256": "511b1817ed542c1ba0d26d70b5842f38906a3f356d86de6210c64ca02dd20633",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_single_cell_results_sentences.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1470,
+      "sha256": "4578134805b74ae51f7549694b01f2bfd61dfee0017f7c50d0eb111f37d255d2",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "results/tables/paper4_locked_single_cell_results_sentences_six_dogs.txt",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 1490,
+      "sha256": "005c807de40fbf10cdfb18a8740b61f0fd2e562daaadd1233f8d058651104e56",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/42_score_ammons_single_cell_localization.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 49438,
+      "sha256": "5f876e15aa10dca589e1a7878de26d34ca3e1a4116beeb43ef038b5b74cb641b",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/43_audit_lock_ammons_single_cell.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 28168,
+      "sha256": "770eecc5182c52fe39bb4399bb9beed83dce98d1e8d2a734797e3f2ebef04a1e",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/44_recompute_ammons_six_dog_localization.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 44219,
+      "sha256": "dbbf957c450f64138171336048dbf3c727be3dc418f3e97c3664f1aa62f4d1a0",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/45_dog2_pathological_necrosis_response.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 56755,
+      "sha256": "2b1bad1324a81afc33e67334cb4b569592357104ade70471d892ce19cdfd3385",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/46_gse239948_external_canine_representation.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 39675,
+      "sha256": "54800118be6ae6befe1f18d79ffae8e8bd522fe09a907fcf0189fd6a8a87100d",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/46_gse239948_external_canine_representation_v2.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 49436,
+      "sha256": "eade633a0d4a11419af829380a46e92dac3adf17a4d2d09c6691f6df28aca106",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/47_audit_and_lock_gse239948_external_canine_evidence.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 45181,
+      "sha256": "6438f1a81821b4779991f420c99c7895ba590f01e18e2d87d1dd86cc99c56193",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/48_gse39055_pathological_necrosis_response.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 40044,
+      "sha256": "031ef4c5925389f802d7f17c9c498264e4bd7ef2973ab828a62f1d4e1f85251a",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/49_gse239948_blind_de_novo_rediscovery.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 27280,
+      "sha256": "97ff6c046e732a01dedd949b37d35d221ef2163deafe3600261dd1034cc677b5",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/49_gse239948_blind_de_novo_rediscovery_FIXED_V2.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 29105,
+      "sha256": "40540bd7f10f7eb1c8f9bbf4822c54c0ee74d6e12e657b1277c7efae0f4d2247",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/50_wgcna_module_preservation_benchmark.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 24670,
+      "sha256": "8cedf0d01844c9366ec655fea2c20a3a60758ede99b494ec974cfbaf4f2fe83b",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/51_final_lock_external_canine_triangulation.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 32219,
+      "sha256": "5b4787b5c1ba8202bf41c133e179f07a676518f7b6165cfc76bbc2d89a14babc",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/52_generate_final_paper4_manuscript_assets.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 44830,
+      "sha256": "95398b1984c439696639d49adca12029ed0cbfd09a182e284df12a4a4028af18",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    },
+    {
+      "path": "scripts/53_generate_paper4_manuscript_draft.py",
+      "exists": true,
+      "is_file": true,
+      "size_bytes": 49632,
+      "sha256": "676edd33affeaf41671b11c534a4fbe7943f3c92ba81cb77a96140c9a29f7700",
+      "status_class": "untracked",
+      "index_status": "?",
+      "worktree_status": "?",
+      "original_path": ""
+    }
+  ],
+  "unstaged_diff_name_status": [],
+  "staged_diff_name_status": [],
+  "diff_stat": []
+}
