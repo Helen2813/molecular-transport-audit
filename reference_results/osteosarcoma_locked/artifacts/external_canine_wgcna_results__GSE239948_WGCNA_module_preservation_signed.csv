@@ -1,0 +1,5 @@
+wgcna_color,module_size,median_rank_pres,zsummary_pres,zdensity_pres,zconnectivity_pres,cor_kim,cor_kme,mean_cor,module_label,wgcna_preservation_class,small_module_guardrail
+turquoise,154,3,23.7802438643508,30.7082514769422,16.8522362517594,0.804844454681779,0.815591967149215,,M34,strong_wgcna_preservation,
+blue,6,1,4.48140885771964,7.86365425108519,1.09916346435409,0.488545037408604,0.0863401004714051,,M11,moderate_wgcna_preservation,small_module_size_sensitive
+brown,6,4,2.35832587334392,2.73312680832761,1.98352493836024,0.87495993843571,0.494455831159175,,M24,moderate_wgcna_preservation,small_module_size_sensitive
+yellow,106,2,35.6169604999184,55.211680814588,16.0222401852489,0.924218426474511,0.979941803635489,,M40,strong_wgcna_preservation,

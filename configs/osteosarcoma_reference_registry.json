@@ -1,0 +1,175 @@
+{
+  "registry_version": "0.1.0",
+  "study": "canine-human-osteosarcoma",
+  "source_repository": "paper4_sarcoma_dog",
+  "artifacts": [
+    {
+      "id": "frozen_canine_program_manifest",
+      "axis": "program_freeze",
+      "source_path": "results/tables/GSE238110_frozen_canine_transfer_program_manifest.csv",
+      "source_script": "scripts/21_finalize_canine_transfer_programs_FIXED_V2.py",
+      "expected_script_version": "21-fixed-ortholog-qc-v2",
+      "regression_class": "exact_artifact"
+    },
+    {
+      "id": "projectwide_primary_multiplicity",
+      "axis": "clinical_outcome_transport",
+      "source_path": "results/tables/paper4_projectwide_primary_multiplicity.csv",
+      "source_script": "scripts/33_projectwide_multiplicity_assay_aware_lock.py",
+      "expected_script_version": "33-projectwide-multiplicity-assay-aware-lock-v1",
+      "regression_class": "deterministic_table"
+    },
+    {
+      "id": "human_primary_outcomes",
+      "axis": "clinical_outcome_transport",
+      "source_path": "results/tables/Paper4_final_human_primary_outcomes_table.csv",
+      "source_script": "scripts/52_generate_final_paper4_manuscript_assets.py",
+      "expected_script_version": "52-generate-final-paper4-manuscript-assets-v1",
+      "regression_class": "exact_artifact"
+    },
+    {
+      "id": "human_structural_preservation_manifest",
+      "axis": "molecular_representation_preservation",
+      "source_path": "results/tables/cross_cohort_conservative_preservation_manifest.json",
+      "source_script": "scripts/28_conservative_module_preservation_audit.py",
+      "expected_script_version": "28-conservative-module-preservation-audit-v1",
+      "regression_class": "exact_artifact"
+    },
+    {
+      "id": "human_structural_preservation_classification",
+      "axis": "molecular_representation_preservation",
+      "source_path": "results/tables/cross_cohort_conservative_preservation_classification.csv",
+      "source_script": "scripts/28_conservative_module_preservation_audit.py",
+      "expected_script_version": "28-conservative-module-preservation-audit-v1",
+      "regression_class": "deterministic_table"
+    },
+    {
+      "id": "gse39055_assay_manifest",
+      "axis": "measurement_robustness",
+      "source_path": "results/tables/GSE39055_assay_quality_diagnostic_manifest.json",
+      "source_script": "scripts/31_gse39055_assay_quality_diagnostic_v2.py",
+      "expected_script_version": "31-gse39055-assay-quality-diagnostic-v2",
+      "regression_class": "exact_artifact"
+    },
+    {
+      "id": "variable_only_mofa_model_manifest",
+      "axis": "unsupervised_recurrence",
+      "source_path": "results/tables/multigroup_mofa_variable_only_unsupervised_freeze_manifest.json",
+      "source_script": "scripts/38_run_variable_only_mofapy2_multigroup.py",
+      "expected_script_version": "38-variable-only-mofapy2-multigroup-v1",
+      "regression_class": "latent_model_manifest"
+    },
+    {
+      "id": "variable_only_mofa_alignment_manifest",
+      "axis": "unsupervised_recurrence",
+      "source_path": "results/tables/multigroup_mofa_variable_only_alignment_manifest.json",
+      "source_script": "scripts/39_align_variable_only_mofa.py",
+      "expected_script_version": "39-align-variable-only-mofa-v1",
+      "regression_class": "latent_model_manifest"
+    },
+    {
+      "id": "external_canine_direct_manifest",
+      "axis": "molecular_representation_preservation",
+      "source_path": "results/tables/GSE239948_external_representation_manifest.json",
+      "source_script": "scripts/46_gse239948_external_canine_representation_v2.py",
+      "expected_script_version": "46-gse239948-external-canine-representation-v2",
+      "regression_class": "stochastic_manifest"
+    },
+    {
+      "id": "external_canine_direct_structure",
+      "axis": "molecular_representation_preservation",
+      "source_path": "results/tables/GSE239948_external_module_structure_preservation.csv",
+      "source_script": "scripts/46_gse239948_external_canine_representation_v2.py",
+      "expected_script_version": "46-gse239948-external-canine-representation-v2",
+      "regression_class": "stochastic_table"
+    },
+    {
+      "id": "external_canine_random_controls",
+      "axis": "predictive_specificity",
+      "source_path": "results/tables/GSE239948_external_random_panel_controls.csv",
+      "source_script": "scripts/46_gse239948_external_canine_representation_v2.py",
+      "expected_script_version": "46-gse239948-external-canine-representation-v2",
+      "regression_class": "stochastic_table"
+    },
+    {
+      "id": "external_canine_blind_manifest",
+      "axis": "unsupervised_recurrence",
+      "source_path": "results/tables/GSE239948_blind_de_novo_rediscovery_manifest.json",
+      "source_script": "scripts/49_gse239948_blind_de_novo_rediscovery_FIXED_V2.py",
+      "expected_script_version": "49-gse239948-blind-de-novo-rediscovery-v2",
+      "regression_class": "stochastic_manifest"
+    },
+    {
+      "id": "external_canine_blind_rediscovery",
+      "axis": "unsupervised_recurrence",
+      "source_path": "results/tables/GSE239948_blind_frozen_program_rediscovery.csv",
+      "source_script": "scripts/49_gse239948_blind_de_novo_rediscovery_FIXED_V2.py",
+      "expected_script_version": "49-gse239948-blind-de-novo-rediscovery-v2",
+      "regression_class": "stochastic_table"
+    },
+    {
+      "id": "external_canine_wgcna_manifest",
+      "axis": "molecular_representation_preservation",
+      "source_path": "results/tables/GSE239948_WGCNA_module_preservation_manifest.json",
+      "source_script": "scripts/50_wgcna_module_preservation_benchmark.py",
+      "expected_script_version": "50-wgcna-module-preservation-benchmark-v1",
+      "regression_class": "wgcna_manifest"
+    },
+    {
+      "id": "external_canine_wgcna_results",
+      "axis": "molecular_representation_preservation",
+      "source_path": "results/tables/GSE239948_WGCNA_module_preservation_signed.csv",
+      "source_script": "scripts/50_wgcna_module_preservation_benchmark.py",
+      "expected_script_version": "50-wgcna-module-preservation-benchmark-v1",
+      "regression_class": "wgcna_table"
+    },
+    {
+      "id": "single_cell_six_dog_manifest",
+      "axis": "biological_localization",
+      "source_path": "results/tables/Ammons_scRNA_six_dog_localization_manifest.json",
+      "source_script": "scripts/44_recompute_ammons_six_dog_localization.py",
+      "expected_script_version": "44-recompute-ammons-six-dog-localization-v1",
+      "regression_class": "exact_artifact"
+    },
+    {
+      "id": "single_cell_six_dog_primary_tests",
+      "axis": "biological_localization",
+      "source_path": "results/tables/Ammons_scRNA_targeted_localization_tests_six_dogs.csv",
+      "source_script": "scripts/44_recompute_ammons_six_dog_localization.py",
+      "expected_script_version": "44-recompute-ammons-six-dog-localization-v1",
+      "regression_class": "deterministic_table"
+    },
+    {
+      "id": "external_canine_evidence_lock",
+      "axis": "evidence_lock",
+      "source_path": "results/tables/paper4_external_canine_evidence_manifest.json",
+      "source_script": "scripts/47_audit_and_lock_gse239948_external_canine_evidence.py",
+      "expected_script_version": "47-lock-gse239948-independent-canine-evidence-v2",
+      "regression_class": "exact_artifact"
+    },
+    {
+      "id": "final_analysis_lock",
+      "axis": "evidence_lock",
+      "source_path": "results/tables/paper4_final_analysis_lock_manifest.json",
+      "source_script": "scripts/51_final_lock_external_canine_triangulation.py",
+      "expected_script_version": "51-final-lock-external-canine-triangulation-v1",
+      "regression_class": "exact_artifact"
+    },
+    {
+      "id": "final_external_canine_triangulation",
+      "axis": "evidence_lock",
+      "source_path": "results/tables/paper4_locked_external_canine_triangulation.csv",
+      "source_script": "scripts/51_final_lock_external_canine_triangulation.py",
+      "expected_script_version": "51-final-lock-external-canine-triangulation-v1",
+      "regression_class": "exact_artifact"
+    },
+    {
+      "id": "final_module_interpretation",
+      "axis": "evidence_lock",
+      "source_path": "results/tables/paper4_locked_final_module_interpretation.csv",
+      "source_script": "scripts/51_final_lock_external_canine_triangulation.py",
+      "expected_script_version": "51-final-lock-external-canine-triangulation-v1",
+      "regression_class": "exact_artifact"
+    }
+  ]
+}

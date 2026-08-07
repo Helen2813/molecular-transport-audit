@@ -1,0 +1,170 @@
+{
+  "script_version": "46-gse239948-external-canine-representation-v2",
+  "created_utc": "2026-08-06T17:25:08.144804+00:00",
+  "accession": "GSE239948",
+  "n_external_samples": 43,
+  "n_external_genes": 15307,
+  "selected_gene_identifier_column": "Name",
+  "selected_frozen_identifier_column": "canine_gene_symbol",
+  "selected_identifier_scheme": "symbol",
+  "transform_diagnostics": {
+    "minimum": 3.0,
+    "median": 194.395348837209,
+    "maximum": 956034.744186047,
+    "integer_like_fraction": 0.1651926994945313,
+    "transform": "log2_x_plus_1"
+  },
+  "frozen_definition": {
+    "frozen_after_script": "20_proliferation_overlap_crossfit_sensitivity.py",
+    "primary_clean_modules": [
+      "M34",
+      "M11",
+      "M24"
+    ],
+    "primary_proliferation_axis_modules": [
+      "M40"
+    ],
+    "secondary_sensitivity_modules": [
+      "M28",
+      "M38",
+      "M25",
+      "M17"
+    ],
+    "primary_canine_endpoint": "DFI",
+    "secondary_canine_endpoint": "OS_concordance",
+    "primary_human_score": "strict_one_to_one_signed_mean_z",
+    "secondary_human_score": "strict_one_to_one_canine_pca_weighted_z",
+    "m40_residual_role": "mechanistic_sensitivity",
+    "ortholog_qc_input_file": "GSE238110_RNA_master_candidate_evidence_table_with_ortholog_qc.csv",
+    "ortholog_qc_input_sha256": "26673d73d3e2b3769ae0eaf776d5f9fe239c594bf8c0f71e01b6ff50d1017586",
+    "files": {
+      "GSE238110_repeated_cv_program_scores_by_repeat.csv": {
+        "sha256": "90e1ba5ecdef36d1fc813ead372b6fad70bfe6e7f57dc7578e353939b3a09c75",
+        "size_bytes": 495510
+      },
+      "GSE238110_repeated_cv_program_model_contrasts.csv": {
+        "sha256": "c4dd9f810ae1df0f3662754cb05349023bfb71a9ad1a5f3497401d8c0bbd5382",
+        "size_bytes": 82109
+      },
+      "GSE238110_repeated_cv_program_model_contrast_summary.csv": {
+        "sha256": "2aec5db69a38b9dab0e8769334c977a86f0f505fcd16e6402b2bbe9f1e9832de",
+        "size_bytes": 51043
+      },
+      "GSE238110_frozen_canine_transfer_program_manifest.csv": {
+        "sha256": "fcd34b985ea99986f39dfc43ce8e4018db2fde9ecc8a225bb40ac93006d5372c",
+        "size_bytes": 14880
+      },
+      "GSE238110_frozen_transfer_gene_weights_strict.csv": {
+        "sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91",
+        "size_bytes": 50062
+      },
+      "GSE238110_frozen_transfer_gene_weights_broad.csv": {
+        "sha256": "ee5f661677b173507e04856f848b6757ede2750dd69b9bb0d88a9f6a2a77bd4c",
+        "size_bytes": 60534
+      },
+      "GSE238110_frozen_transfer_programs_strict.gmt": {
+        "sha256": "1d96f03c085aa5f4d2f81916a11b018919390be4f50894307726a1bb06ece738",
+        "size_bytes": 2652
+      },
+      "GSE238110_frozen_transfer_programs_broad.gmt": {
+        "sha256": "aa57acfd1cd67be7aeabd35763e47c76039b2211694db1d02ac053dc13a27129",
+        "size_bytes": 3058
+      },
+      "GSE238110_frozen_transfer_scoring_specification.csv": {
+        "sha256": "562aab92caa949691f43b0285cf2585c98008e78c62d2c15477a6d156d7f47a7",
+        "size_bytes": 14951
+      },
+      "GSE238110_frozen_transfer_programs_README.txt": {
+        "sha256": "20d51001ad6da75a56c26d4efb22a029e8f423a507707ec31f2c7dc596d5dda9",
+        "size_bytes": 1427
+      }
+    }
+  },
+  "gene_label_permutations": 5000,
+  "random_panels": 1000,
+  "split_half_repeats": 2000,
+  "outcome_loaded": false,
+  "guardrails": [
+    "No external outcome was loaded.",
+    "Frozen module genes, loadings, signs, and tiers were unchanged.",
+    "External PC1 orientation used only the frozen signed score.",
+    "Representation preservation is not prognostic validation.",
+    "Therapy heterogeneity may contribute to expression-domain shift."
+  ],
+  "inputs": {
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\data\\raw\\canine_validation_GSE239948\\GSE239948_CCOGC.txt.gz": {
+      "sha256": "b9389c045741e7d76a5bdd3f9585b5d84b442eee30d35613e806c17cced2fba5",
+      "size_bytes": 2421045
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\data\\processed\\GSE238110_DOG2_expression_log2cpm_matched_allgenes.csv": {
+      "sha256": "6deae6ee8a2663fc4f7be1bb560831c465b295e5b0282bd495934222bbe16997",
+      "size_bytes": 63143134
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE238110_frozen_transfer_gene_weights_strict.csv": {
+      "sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91",
+      "size_bytes": 50062
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE238110_frozen_transfer_program_freeze.json": {
+      "sha256": "c0eb0a1e10666cc6e72f08842fa36d48a4a9c49966d19f90acc09bd684748e2c",
+      "size_bytes": 2588
+    }
+  },
+  "outputs": {
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_input_audit.csv": {
+      "sha256": "fc70f9ef0219df153f56d224439bda07b4838935bca2c407f2e92b95a144923f",
+      "size_bytes": 1282
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_identifier_pair_audit.csv": {
+      "sha256": "e8db70407048465652527a0f3e5d66637fbe141d811ce083b875b142396b2b88",
+      "size_bytes": 953
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_gene_mapping.csv": {
+      "sha256": "56aff5474085f70f9ffb7b54024ba3ccbe40517bef5b48b09fc6e6b39fd034d3",
+      "size_bytes": 602221
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\data\\processed\\canine_validation_GSE239948_expression_log2_symbol.csv": {
+      "sha256": "168fa2693ceb1df4ebbe22ea3e92ddb5e79e2f06024a546202d73b53d3945176",
+      "size_bytes": 10697486
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\data\\processed\\canine_validation_GSE239948_frozen_program_scores.csv": {
+      "sha256": "637c518385fb14419f41a44b37d4dc785636f9978ac2fbe67994578ce0ba42fd",
+      "size_bytes": 3947
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_frozen_program_coverage.csv": {
+      "sha256": "8a3f4d87bb9ebf1bf0d0a3c1c69f38e95d020abed5968a350f5c1db21578cf80",
+      "size_bytes": 2008
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_module_structure_preservation.csv": {
+      "sha256": "3a23d206704be171b611cae997e9ebeebbbaf943b8d6a6b09e821f4ed1c9e305",
+      "size_bytes": 1022
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_module_score_reliability.csv": {
+      "sha256": "3a9412a26547cbb926eaccf38451373d82d6282884da5f6c0724be31825e183a",
+      "size_bytes": 588
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_module_gene_leave_one_out.csv": {
+      "sha256": "af1c55371afd999ae4d05a517d9bc3cd90a0ee9dad9437b7e94d1bdaf895a37d",
+      "size_bytes": 9323
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_random_panel_controls.csv": {
+      "sha256": "472b0676317ed64e2e56d02772e918375b2b96013ed4bb7219f5dac18c979195",
+      "size_bytes": 589
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_representation_classification.csv": {
+      "sha256": "b4c966b753d7fd8d4132445ec71a1365be3774aee8f2d745bff4cbed62aa812e",
+      "size_bytes": 1564
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\GSE239948_external_representation_README.txt": {
+      "sha256": "256253838f9f9b3034193762500f1498cb15548ecddaad1361c38596a04f952a",
+      "size_bytes": 1786
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\figures\\gse239948_external_canine\\GSE239948_external_representation_heatmap.png": {
+      "sha256": "3dbba23ff1d01b30869dbb31f687eb391d341ba9b0473231201a844bc7f04805",
+      "size_bytes": 118108
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\figures\\gse239948_external_canine\\GSE239948_external_representation_heatmap.pdf": {
+      "sha256": "2c26abe8ab473693ec382f879918643bc4f7a47939f78444d5fb940749662706",
+      "size_bytes": 17752
+    }
+  }
+}

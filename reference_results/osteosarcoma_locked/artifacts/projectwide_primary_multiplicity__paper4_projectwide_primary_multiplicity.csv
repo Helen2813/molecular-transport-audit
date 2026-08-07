@@ -1,0 +1,13 @@
+cohort,endpoint,module_label,primary_p,effect,effect_type,direction_concordant,projectwide_q_12,projectwide_fdr_supported,nominal_supported
+GSE21257,metastasis_within_5y,M34,0.0008709092010055,0.7786377708978328,auc,True,0.010450910412066,True,True
+GSE21257,metastasis_within_5y,M11,0.0266650807633984,0.6857585139318886,auc,True,0.1228603358844324,False,True
+GSE21257,metastasis_within_5y,M24,0.0307150839711081,0.6811145510835914,auc,True,0.1228603358844324,False,True
+TARGET_OS,overall_survival,M34,0.0460449626795332,1.4673526696093713,hazard_ratio_per_sd,True,0.12624347348558546,False,True
+GSE21257,metastasis_within_5y,M40,0.0526014472856606,0.6625386996904026,auc,True,0.12624347348558546,False,False
+TARGET_OS,overall_survival,M24,0.3445295979336989,0.8360308932203917,hazard_ratio_per_sd,False,0.47042457129621157,False,False
+GSE39055,recurrence_free_survival,M34,0.359483695206541,0.8064440624284793,hazard_ratio_per_sd,False,0.47042457129621157,False,False
+GSE39055,recurrence_free_survival,M11,0.3813516794449209,1.2131747420362171,hazard_ratio_per_sd,True,0.47042457129621157,False,False
+GSE39055,recurrence_free_survival,M40,0.3903692885019628,0.7834323625032519,hazard_ratio_per_sd,False,0.47042457129621157,False,False
+TARGET_OS,overall_survival,M40,0.4116158015361447,1.184486091591679,hazard_ratio_per_sd,True,0.47042457129621157,False,False
+TARGET_OS,overall_survival,M11,0.4312225236881939,1.1843931528098284,hazard_ratio_per_sd,True,0.47042457129621157,False,False
+GSE39055,recurrence_free_survival,M24,0.607888962456079,0.88617265418597,hazard_ratio_per_sd,False,0.607888962456079,False,False

@@ -1,0 +1,599 @@
+{
+  "registry_builder_version": "0.1.0",
+  "registry_version": "0.1.0",
+  "study": "canine-human-osteosarcoma",
+  "generated_at_utc": "2026-08-07T21:06:00.171435+00:00",
+  "source_repository": "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog",
+  "source_repository_head": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+  "artifacts": [
+    {
+      "id": "frozen_canine_program_manifest",
+      "axis": "program_freeze",
+      "regression_class": "exact_artifact",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/GSE238110_frozen_canine_transfer_program_manifest.csv",
+        "sha256": "fcd34b985ea99986f39dfc43ce8e4018db2fde9ecc8a225bb40ac93006d5372c",
+        "size_bytes": 14880,
+        "git_commit": "364e8b8e9ce54ac701b4d20455636e25b37289ff",
+        "git_commit_date": "2026-08-05T20:27:32-04:00",
+        "git_commit_subject": "finish first level of analysis"
+      },
+      "source_script": {
+        "path": "scripts/21_finalize_canine_transfer_programs_FIXED_V2.py",
+        "declared_version": "21-fixed-ortholog-qc-v2",
+        "sha256": "8da88bbb0fef845dc2c964c24eee21f4382c90e86b98f55fb0b66b3c7af5205c",
+        "git_commit": "364e8b8e9ce54ac701b4d20455636e25b37289ff",
+        "git_commit_date": "2026-08-05T20:27:32-04:00",
+        "git_commit_subject": "finish first level of analysis"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/frozen_canine_program_manifest__GSE238110_frozen_canine_transfer_program_manifest.csv",
+        "sha256": "fcd34b985ea99986f39dfc43ce8e4018db2fde9ecc8a225bb40ac93006d5372c",
+        "size_bytes": 14880
+      }
+    },
+    {
+      "id": "projectwide_primary_multiplicity",
+      "axis": "clinical_outcome_transport",
+      "regression_class": "deterministic_table",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/paper4_projectwide_primary_multiplicity.csv",
+        "sha256": "a1bf689c3adc955d7602482c8248e0bf60c631e2f339e061698812f7decb25a6",
+        "size_bytes": 1629,
+        "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+        "git_commit_date": "2026-08-06T00:14:31-04:00",
+        "git_commit_subject": "finish 40"
+      },
+      "source_script": {
+        "path": "scripts/33_projectwide_multiplicity_assay_aware_lock.py",
+        "declared_version": "33-projectwide-multiplicity-assay-aware-lock-v1",
+        "sha256": "647c20f3aa6668a05f47213fdb176257da5b7045eb33ca73737da1c93f31adf8",
+        "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+        "git_commit_date": "2026-08-06T00:14:31-04:00",
+        "git_commit_subject": "finish 40"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/projectwide_primary_multiplicity__paper4_projectwide_primary_multiplicity.csv",
+        "sha256": "a1bf689c3adc955d7602482c8248e0bf60c631e2f339e061698812f7decb25a6",
+        "size_bytes": 1629
+      }
+    },
+    {
+      "id": "human_primary_outcomes",
+      "axis": "clinical_outcome_transport",
+      "regression_class": "exact_artifact",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/Paper4_final_human_primary_outcomes_table.csv",
+        "sha256": "48881f473c4ea9abd39308496e772d777937cd407cc0378e2a98148e731159cf",
+        "size_bytes": 1830,
+        "git_commit": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+        "git_commit_date": "2026-08-07T17:05:45-04:00",
+        "git_commit_subject": "freeze additional reference artifact"
+      },
+      "source_script": {
+        "path": "scripts/52_generate_final_paper4_manuscript_assets.py",
+        "declared_version": "52-generate-final-paper4-manuscript-assets-v1",
+        "sha256": "95398b1984c439696639d49adca12029ed0cbfd09a182e284df12a4a4028af18",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/human_primary_outcomes__Paper4_final_human_primary_outcomes_table.csv",
+        "sha256": "48881f473c4ea9abd39308496e772d777937cd407cc0378e2a98148e731159cf",
+        "size_bytes": 1830
+      }
+    },
+    {
+      "id": "human_structural_preservation_manifest",
+      "axis": "molecular_representation_preservation",
+      "regression_class": "exact_artifact",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/cross_cohort_conservative_preservation_manifest.json",
+        "sha256": "4abe64e72bfdbec2eada438aaecc0a43b49d15e6f8995a0aed5b966cc23c4175",
+        "size_bytes": 1059,
+        "git_commit": "364e8b8e9ce54ac701b4d20455636e25b37289ff",
+        "git_commit_date": "2026-08-05T20:27:32-04:00",
+        "git_commit_subject": "finish first level of analysis"
+      },
+      "source_script": {
+        "path": "scripts/28_conservative_module_preservation_audit.py",
+        "declared_version": "28-conservative-module-preservation-audit-v1",
+        "sha256": "a2f9631f1ebc358b6d5db00daa6a1ee754eabcf0ac4e0f73326dbe7e27c33b88",
+        "git_commit": "364e8b8e9ce54ac701b4d20455636e25b37289ff",
+        "git_commit_date": "2026-08-05T20:27:32-04:00",
+        "git_commit_subject": "finish first level of analysis"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/human_structural_preservation_manifest__cross_cohort_conservative_preservation_manifest.json",
+        "sha256": "4abe64e72bfdbec2eada438aaecc0a43b49d15e6f8995a0aed5b966cc23c4175",
+        "size_bytes": 1059
+      }
+    },
+    {
+      "id": "human_structural_preservation_classification",
+      "axis": "molecular_representation_preservation",
+      "regression_class": "deterministic_table",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/cross_cohort_conservative_preservation_classification.csv",
+        "sha256": "184fd8eade2b83039c776aa0a6dcae422897907469b571f3ae65b69be7f5f25e",
+        "size_bytes": 4174,
+        "git_commit": "364e8b8e9ce54ac701b4d20455636e25b37289ff",
+        "git_commit_date": "2026-08-05T20:27:32-04:00",
+        "git_commit_subject": "finish first level of analysis"
+      },
+      "source_script": {
+        "path": "scripts/28_conservative_module_preservation_audit.py",
+        "declared_version": "28-conservative-module-preservation-audit-v1",
+        "sha256": "a2f9631f1ebc358b6d5db00daa6a1ee754eabcf0ac4e0f73326dbe7e27c33b88",
+        "git_commit": "364e8b8e9ce54ac701b4d20455636e25b37289ff",
+        "git_commit_date": "2026-08-05T20:27:32-04:00",
+        "git_commit_subject": "finish first level of analysis"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/human_structural_preservation_classification__cross_cohort_conservative_preservation_classification.csv",
+        "sha256": "184fd8eade2b83039c776aa0a6dcae422897907469b571f3ae65b69be7f5f25e",
+        "size_bytes": 4174
+      }
+    },
+    {
+      "id": "gse39055_assay_manifest",
+      "axis": "measurement_robustness",
+      "regression_class": "exact_artifact",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/GSE39055_assay_quality_diagnostic_manifest.json",
+        "sha256": "219dc54b1f4a1cc5a18af9ab51c5cab98d6ec65b9c474ff96c46732ae114fd68",
+        "size_bytes": 4680,
+        "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+        "git_commit_date": "2026-08-06T00:14:31-04:00",
+        "git_commit_subject": "finish 40"
+      },
+      "source_script": {
+        "path": "scripts/31_gse39055_assay_quality_diagnostic_v2.py",
+        "declared_version": "31-gse39055-assay-quality-diagnostic-v2",
+        "sha256": "758832ea7c193fa73be07048a6f97b9297f57b00518e322e1a3f6179cd8faf66",
+        "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+        "git_commit_date": "2026-08-06T00:14:31-04:00",
+        "git_commit_subject": "finish 40"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/gse39055_assay_manifest__GSE39055_assay_quality_diagnostic_manifest.json",
+        "sha256": "219dc54b1f4a1cc5a18af9ab51c5cab98d6ec65b9c474ff96c46732ae114fd68",
+        "size_bytes": 4680
+      }
+    },
+    {
+      "id": "variable_only_mofa_model_manifest",
+      "axis": "unsupervised_recurrence",
+      "regression_class": "latent_model_manifest",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/multigroup_mofa_variable_only_unsupervised_freeze_manifest.json",
+        "sha256": "e96930c1d68b96c74eb3e61995f4fa4ff2936761413b36c4f4b083f6e9127ba1",
+        "size_bytes": 24045,
+        "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+        "git_commit_date": "2026-08-06T00:14:31-04:00",
+        "git_commit_subject": "finish 40"
+      },
+      "source_script": {
+        "path": "scripts/38_run_variable_only_mofapy2_multigroup.py",
+        "declared_version": "38-variable-only-mofapy2-multigroup-v1",
+        "sha256": "89be9343bd35812086374c4948639dc611938679ddaabfe173f6368226b2eb66",
+        "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+        "git_commit_date": "2026-08-06T00:14:31-04:00",
+        "git_commit_subject": "finish 40"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/variable_only_mofa_model_manifest__multigroup_mofa_variable_only_unsupervised_freeze_manifest.json",
+        "sha256": "e96930c1d68b96c74eb3e61995f4fa4ff2936761413b36c4f4b083f6e9127ba1",
+        "size_bytes": 24045
+      }
+    },
+    {
+      "id": "variable_only_mofa_alignment_manifest",
+      "axis": "unsupervised_recurrence",
+      "regression_class": "latent_model_manifest",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/multigroup_mofa_variable_only_alignment_manifest.json",
+        "sha256": "be60f367df4519490b2a9e0608e41da3c99b002ca6287c279d01c3880dd2276c",
+        "size_bytes": 5936,
+        "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+        "git_commit_date": "2026-08-06T00:14:31-04:00",
+        "git_commit_subject": "finish 40"
+      },
+      "source_script": {
+        "path": "scripts/39_align_variable_only_mofa.py",
+        "declared_version": "39-align-variable-only-mofa-v1",
+        "sha256": "c2cf9da917f84f3eda2571e9d49d315c5f9ed029620edf427ae4507347e13c1a",
+        "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+        "git_commit_date": "2026-08-06T00:14:31-04:00",
+        "git_commit_subject": "finish 40"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/variable_only_mofa_alignment_manifest__multigroup_mofa_variable_only_alignment_manifest.json",
+        "sha256": "be60f367df4519490b2a9e0608e41da3c99b002ca6287c279d01c3880dd2276c",
+        "size_bytes": 5936
+      }
+    },
+    {
+      "id": "external_canine_direct_manifest",
+      "axis": "molecular_representation_preservation",
+      "regression_class": "stochastic_manifest",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/GSE239948_external_representation_manifest.json",
+        "sha256": "eae7ad5cd8f62a991e1fc50121adbf54c18ac7f1876a6ed0466dfefc7427c49a",
+        "size_bytes": 8222,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/46_gse239948_external_canine_representation_v2.py",
+        "declared_version": "46-gse239948-external-canine-representation-v2",
+        "sha256": "eade633a0d4a11419af829380a46e92dac3adf17a4d2d09c6691f6df28aca106",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/external_canine_direct_manifest__GSE239948_external_representation_manifest.json",
+        "sha256": "eae7ad5cd8f62a991e1fc50121adbf54c18ac7f1876a6ed0466dfefc7427c49a",
+        "size_bytes": 8222
+      }
+    },
+    {
+      "id": "external_canine_direct_structure",
+      "axis": "molecular_representation_preservation",
+      "regression_class": "stochastic_table",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/GSE239948_external_module_structure_preservation.csv",
+        "sha256": "3a23d206704be171b611cae997e9ebeebbbaf943b8d6a6b09e821f4ed1c9e305",
+        "size_bytes": 1022,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/46_gse239948_external_canine_representation_v2.py",
+        "declared_version": "46-gse239948-external-canine-representation-v2",
+        "sha256": "eade633a0d4a11419af829380a46e92dac3adf17a4d2d09c6691f6df28aca106",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/external_canine_direct_structure__GSE239948_external_module_structure_preservation.csv",
+        "sha256": "3a23d206704be171b611cae997e9ebeebbbaf943b8d6a6b09e821f4ed1c9e305",
+        "size_bytes": 1022
+      }
+    },
+    {
+      "id": "external_canine_random_controls",
+      "axis": "predictive_specificity",
+      "regression_class": "stochastic_table",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/GSE239948_external_random_panel_controls.csv",
+        "sha256": "472b0676317ed64e2e56d02772e918375b2b96013ed4bb7219f5dac18c979195",
+        "size_bytes": 589,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/46_gse239948_external_canine_representation_v2.py",
+        "declared_version": "46-gse239948-external-canine-representation-v2",
+        "sha256": "eade633a0d4a11419af829380a46e92dac3adf17a4d2d09c6691f6df28aca106",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/external_canine_random_controls__GSE239948_external_random_panel_controls.csv",
+        "sha256": "472b0676317ed64e2e56d02772e918375b2b96013ed4bb7219f5dac18c979195",
+        "size_bytes": 589
+      }
+    },
+    {
+      "id": "external_canine_blind_manifest",
+      "axis": "unsupervised_recurrence",
+      "regression_class": "stochastic_manifest",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/GSE239948_blind_de_novo_rediscovery_manifest.json",
+        "sha256": "b57dfff98c8de8f536f032763e32da9a7b4bd6d44dd1fb28e46e762e579f25bb",
+        "size_bytes": 2864,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/49_gse239948_blind_de_novo_rediscovery_FIXED_V2.py",
+        "declared_version": "49-gse239948-blind-de-novo-rediscovery-v2",
+        "sha256": "40540bd7f10f7eb1c8f9bbf4822c54c0ee74d6e12e657b1277c7efae0f4d2247",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/external_canine_blind_manifest__GSE239948_blind_de_novo_rediscovery_manifest.json",
+        "sha256": "b57dfff98c8de8f536f032763e32da9a7b4bd6d44dd1fb28e46e762e579f25bb",
+        "size_bytes": 2864
+      }
+    },
+    {
+      "id": "external_canine_blind_rediscovery",
+      "axis": "unsupervised_recurrence",
+      "regression_class": "stochastic_table",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/GSE239948_blind_frozen_program_rediscovery.csv",
+        "sha256": "473895e65c3d9ec8367036e38e5be29209389f522b237afc5faa80c0aeca9446",
+        "size_bytes": 1652,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/49_gse239948_blind_de_novo_rediscovery_FIXED_V2.py",
+        "declared_version": "49-gse239948-blind-de-novo-rediscovery-v2",
+        "sha256": "40540bd7f10f7eb1c8f9bbf4822c54c0ee74d6e12e657b1277c7efae0f4d2247",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/external_canine_blind_rediscovery__GSE239948_blind_frozen_program_rediscovery.csv",
+        "sha256": "473895e65c3d9ec8367036e38e5be29209389f522b237afc5faa80c0aeca9446",
+        "size_bytes": 1652
+      }
+    },
+    {
+      "id": "external_canine_wgcna_manifest",
+      "axis": "molecular_representation_preservation",
+      "regression_class": "wgcna_manifest",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/GSE239948_WGCNA_module_preservation_manifest.json",
+        "sha256": "505fbe4316eac45a84527fc64986e81c51572d297856fc7eb712630f247d736d",
+        "size_bytes": 2852,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/50_wgcna_module_preservation_benchmark.py",
+        "declared_version": "50-wgcna-module-preservation-benchmark-v1",
+        "sha256": "8cedf0d01844c9366ec655fea2c20a3a60758ede99b494ec974cfbaf4f2fe83b",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/external_canine_wgcna_manifest__GSE239948_WGCNA_module_preservation_manifest.json",
+        "sha256": "505fbe4316eac45a84527fc64986e81c51572d297856fc7eb712630f247d736d",
+        "size_bytes": 2852
+      }
+    },
+    {
+      "id": "external_canine_wgcna_results",
+      "axis": "molecular_representation_preservation",
+      "regression_class": "wgcna_table",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/GSE239948_WGCNA_module_preservation_signed.csv",
+        "sha256": "0b98b6fe9e170bcbb207f23f274237a9a7d729598eaccb6b65c2b13ce9cb26dd",
+        "size_bytes": 760,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/50_wgcna_module_preservation_benchmark.py",
+        "declared_version": "50-wgcna-module-preservation-benchmark-v1",
+        "sha256": "8cedf0d01844c9366ec655fea2c20a3a60758ede99b494ec974cfbaf4f2fe83b",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/external_canine_wgcna_results__GSE239948_WGCNA_module_preservation_signed.csv",
+        "sha256": "0b98b6fe9e170bcbb207f23f274237a9a7d729598eaccb6b65c2b13ce9cb26dd",
+        "size_bytes": 760
+      }
+    },
+    {
+      "id": "single_cell_six_dog_manifest",
+      "axis": "biological_localization",
+      "regression_class": "exact_artifact",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/Ammons_scRNA_six_dog_localization_manifest.json",
+        "sha256": "9bd7cec81c817ce04eb49a43d9a516f36c16a419d0547ef92ec92f3a480eac0d",
+        "size_bytes": 6536,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/44_recompute_ammons_six_dog_localization.py",
+        "declared_version": "44-recompute-ammons-six-dog-localization-v1",
+        "sha256": "dbbf957c450f64138171336048dbf3c727be3dc418f3e97c3664f1aa62f4d1a0",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/single_cell_six_dog_manifest__Ammons_scRNA_six_dog_localization_manifest.json",
+        "sha256": "9bd7cec81c817ce04eb49a43d9a516f36c16a419d0547ef92ec92f3a480eac0d",
+        "size_bytes": 6536
+      }
+    },
+    {
+      "id": "single_cell_six_dog_primary_tests",
+      "axis": "biological_localization",
+      "regression_class": "deterministic_table",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/Ammons_scRNA_targeted_localization_tests_six_dogs.csv",
+        "sha256": "acc4f4b2486ddd7beffd15560bc76c1c993d7c56e4c21f6653bed0b8ca12c5fb",
+        "size_bytes": 2038,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/44_recompute_ammons_six_dog_localization.py",
+        "declared_version": "44-recompute-ammons-six-dog-localization-v1",
+        "sha256": "dbbf957c450f64138171336048dbf3c727be3dc418f3e97c3664f1aa62f4d1a0",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/single_cell_six_dog_primary_tests__Ammons_scRNA_targeted_localization_tests_six_dogs.csv",
+        "sha256": "acc4f4b2486ddd7beffd15560bc76c1c993d7c56e4c21f6653bed0b8ca12c5fb",
+        "size_bytes": 2038
+      }
+    },
+    {
+      "id": "external_canine_evidence_lock",
+      "axis": "evidence_lock",
+      "regression_class": "exact_artifact",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/paper4_external_canine_evidence_manifest.json",
+        "sha256": "78459cfdb60847dacfc74f7aea9de2bb7b9a10dad0d64853cbffcf92001dc2a5",
+        "size_bytes": 9546,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/47_audit_and_lock_gse239948_external_canine_evidence.py",
+        "declared_version": "47-lock-gse239948-independent-canine-evidence-v2",
+        "sha256": "6438f1a81821b4779991f420c99c7895ba590f01e18e2d87d1dd86cc99c56193",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/external_canine_evidence_lock__paper4_external_canine_evidence_manifest.json",
+        "sha256": "78459cfdb60847dacfc74f7aea9de2bb7b9a10dad0d64853cbffcf92001dc2a5",
+        "size_bytes": 9546
+      }
+    },
+    {
+      "id": "final_analysis_lock",
+      "axis": "evidence_lock",
+      "regression_class": "exact_artifact",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/paper4_final_analysis_lock_manifest.json",
+        "sha256": "19e5d7332517811595b09602c65c89d007e6db138f5ea7bc76dd94c641686b46",
+        "size_bytes": 3653,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/51_final_lock_external_canine_triangulation.py",
+        "declared_version": "51-final-lock-external-canine-triangulation-v1",
+        "sha256": "5b4787b5c1ba8202bf41c133e179f07a676518f7b6165cfc76bbc2d89a14babc",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/final_analysis_lock__paper4_final_analysis_lock_manifest.json",
+        "sha256": "19e5d7332517811595b09602c65c89d007e6db138f5ea7bc76dd94c641686b46",
+        "size_bytes": 3653
+      }
+    },
+    {
+      "id": "final_external_canine_triangulation",
+      "axis": "evidence_lock",
+      "regression_class": "exact_artifact",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/paper4_locked_external_canine_triangulation.csv",
+        "sha256": "196dace12b765f7442662a5c6ce3799bee912bce2da0aa52357114c0ed18feb0",
+        "size_bytes": 6170,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/51_final_lock_external_canine_triangulation.py",
+        "declared_version": "51-final-lock-external-canine-triangulation-v1",
+        "sha256": "5b4787b5c1ba8202bf41c133e179f07a676518f7b6165cfc76bbc2d89a14babc",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/final_external_canine_triangulation__paper4_locked_external_canine_triangulation.csv",
+        "sha256": "196dace12b765f7442662a5c6ce3799bee912bce2da0aa52357114c0ed18feb0",
+        "size_bytes": 6170
+      }
+    },
+    {
+      "id": "final_module_interpretation",
+      "axis": "evidence_lock",
+      "regression_class": "exact_artifact",
+      "source_repository": "paper4_sarcoma_dog",
+      "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+      "source_artifact": {
+        "path": "results/tables/paper4_locked_final_module_interpretation.csv",
+        "sha256": "ccab4f6e11cea26556137e9dc53db79b1790a1a82bae0db04bf454b39fe82cce",
+        "size_bytes": 2355,
+        "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+        "git_commit_date": "2026-08-07T16:59:48-04:00",
+        "git_commit_subject": "freeze authoritative late-stage reference results"
+      },
+      "source_script": {
+        "path": "scripts/51_final_lock_external_canine_triangulation.py",
+        "declared_version": "51-final-lock-external-canine-triangulation-v1",
+        "sha256": "5b4787b5c1ba8202bf41c133e179f07a676518f7b6165cfc76bbc2d89a14babc",
+        "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+        "git_commit_date": "2026-08-07T16:47:03-04:00",
+        "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+      },
+      "registry_copy": {
+        "path": "reference_results/osteosarcoma_locked/artifacts/final_module_interpretation__paper4_locked_final_module_interpretation.csv",
+        "sha256": "ccab4f6e11cea26556137e9dc53db79b1790a1a82bae0db04bf454b39fe82cce",
+        "size_bytes": 2355
+      }
+    }
+  ],
+  "duplicate_content_hashes": {}
+}

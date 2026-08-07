@@ -1,0 +1,28 @@
+{
+  "id": "external_canine_blind_manifest",
+  "axis": "unsupervised_recurrence",
+  "regression_class": "stochastic_manifest",
+  "source_repository": "paper4_sarcoma_dog",
+  "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+  "source_artifact": {
+    "path": "results/tables/GSE239948_blind_de_novo_rediscovery_manifest.json",
+    "sha256": "b57dfff98c8de8f536f032763e32da9a7b4bd6d44dd1fb28e46e762e579f25bb",
+    "size_bytes": 2864,
+    "git_commit": "e8b739d8f4f034d6897d06042d9c1d3598a47add",
+    "git_commit_date": "2026-08-07T16:59:48-04:00",
+    "git_commit_subject": "freeze authoritative late-stage reference results"
+  },
+  "source_script": {
+    "path": "scripts/49_gse239948_blind_de_novo_rediscovery_FIXED_V2.py",
+    "declared_version": "49-gse239948-blind-de-novo-rediscovery-v2",
+    "sha256": "40540bd7f10f7eb1c8f9bbf4822c54c0ee74d6e12e657b1277c7efae0f4d2247",
+    "git_commit": "38cb3b4c59092bc8e6e2d7498ba6acd8d51b4d8c",
+    "git_commit_date": "2026-08-07T16:47:03-04:00",
+    "git_commit_subject": "freeze late-stage external validation and manuscript scripts"
+  },
+  "registry_copy": {
+    "path": "reference_results/osteosarcoma_locked/artifacts/external_canine_blind_manifest__GSE239948_blind_de_novo_rediscovery_manifest.json",
+    "sha256": "b57dfff98c8de8f536f032763e32da9a7b4bd6d44dd1fb28e46e762e579f25bb",
+    "size_bytes": 2864
+  }
+}

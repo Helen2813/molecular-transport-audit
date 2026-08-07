@@ -1,0 +1,121 @@
+{
+  "script_version": "44-recompute-ammons-six-dog-localization-v1",
+  "created_utc": "2026-08-06T15:43:48.996578+00:00",
+  "outcome_loaded": false,
+  "biological_replicate_column": "name",
+  "n_cell_ranger_libraries": 8,
+  "n_biological_dogs": 6,
+  "technical_replicate_structure": {
+    "library_counts_per_dog": {
+      "N1": 2,
+      "N2": 2,
+      "N3": 1,
+      "N4": 1,
+      "N5": 1,
+      "N6": 1
+    }
+  },
+  "supersedes": [
+    "Ammons_scRNA_targeted_localization_tests.csv",
+    "paper4_locked_single_cell_biological_localization.csv"
+  ],
+  "guardrails": [
+    "Dogs 1 and 2 had two technical replicate libraries.",
+    "Technical replicate cells were combined before dog-level pseudobulk inference.",
+    "The six-dog analysis supersedes the eight-orig.ident exact tests.",
+    "No clinical outcome or endpoint was loaded.",
+    "Single-cell localization is biological annotation, not prognostic validation."
+  ],
+  "inputs": {
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\data\\raw\\single_cell\\Ammons_GSE252470\\meta.tsv": {
+      "sha256": "f95e7d2bf7613287fd6ad00cc074747003d619512f88ae319102ed4eb8fe90b7",
+      "size_bytes": 3786846
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\data\\processed\\single_cell\\Ammons_GSE252470\\Ammons_frozen_program_cell_scores.csv.gz": {
+      "sha256": "69a3e094cd2d058d422842d860549e585c8e1a650d3961d40e63468ce27928fc",
+      "size_bytes": 1510845
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_score_gene_coverage.csv": {
+      "sha256": "13ae84b614bc12dd08ef47485a5cf70ff56c74df6c43ca91d7806ee3a283cf49",
+      "size_bytes": 502
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_targeted_localization_tests.csv": {
+      "sha256": "5f75eac6ccc4f12b710c02f4220e78ee13e5692a7c694097b4fbb0e9049f2203",
+      "size_bytes": 1802
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_localization_manifest.json": {
+      "sha256": "8fab4af51f41ce6f178e5a98075897f3411602ec4a5450e2ea567d99d41fdbef",
+      "size_bytes": 8747
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\paper4_locked_multidimensional_transport_evidence.csv": {
+      "sha256": "d6f00375286e78e184a99c0774290a91cd502771595beb815907cb57f6bbcbf5",
+      "size_bytes": 3652
+    }
+  },
+  "outputs": {
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_confirmed_library_to_dog_mapping.csv": {
+      "sha256": "19432f4696ef8fd4e11f598f8fd4fe8b793d8edc9e396489e35ad0b4d326c08e",
+      "size_bytes": 251
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_six_dog_cell_counts.csv": {
+      "sha256": "92951d6b30a238b3856e009afe7c64427eba895959a003418ca0f78d08e9fe0c",
+      "size_bytes": 227
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_six_dog_celltype_pseudobulk_scores.csv": {
+      "sha256": "976007babfc4f6f407a40d673c8a6fe4bb0317c8ddaf66b82970a67de174adf6",
+      "size_bytes": 153024
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_six_dog_compartment_scores.csv": {
+      "sha256": "a3dda4b5a0bc986c3404427c4dba5007a682534856d0122b30069606b1d165ba",
+      "size_bytes": 10894
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_targeted_localization_tests_six_dogs.csv": {
+      "sha256": "acc4f4b2486ddd7beffd15560bc76c1c993d7c56e4c21f6653bed0b8ca12c5fb",
+      "size_bytes": 2038
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_targeted_eight_sample_vs_six_dog_comparison.csv": {
+      "sha256": "c198453f93f0005a34c4603b80df5b65c4d2d798980e5631188e057f26013630",
+      "size_bytes": 2087
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_celltype_score_summary_six_dogs.csv": {
+      "sha256": "ea1675623fe6c9da7370ccbca8ad1ff0d9546957f0bcef25923a4ae7831b3ea9",
+      "size_bytes": 147450
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_celltype_rank_stability_six_dogs.csv": {
+      "sha256": "5b0af4bcf4c1e80c506d9b62a458458e7ddab6e1d04855b428557e72271fbd66",
+      "size_bytes": 55881
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\paper4_locked_single_cell_biological_localization_six_dogs.csv": {
+      "sha256": "511b1817ed542c1ba0d26d70b5842f38906a3f356d86de6210c64ca02dd20633",
+      "size_bytes": 2170
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\paper4_locked_single_cell_results_sentences_six_dogs.txt": {
+      "sha256": "005c807de40fbf10cdfb18a8740b61f0fd2e562daaadd1233f8d058651104e56",
+      "size_bytes": 1490
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\Ammons_scRNA_six_dog_localization_README.txt": {
+      "sha256": "c66133bb02b994a7c06ee112a3607d05ece1bcd0f36299c8f9a5c5b4519699fe",
+      "size_bytes": 4494
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\figures\\single_cell_localization_six_dogs\\Ammons_M34_signed_osteoblast_vs_immune_six_dogs.png": {
+      "sha256": "fb7ffdf9c989636801117c755e7a88234c16d2a662b8c223f0ffeb4e7e8b6b50",
+      "size_bytes": 235019
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\figures\\single_cell_localization_six_dogs\\Ammons_M34_signed_osteoblast_vs_immune_six_dogs.pdf": {
+      "sha256": "aa0364e1633a9037701e32330deb3a9795e0f23f6ed6b4b349567b7870949a10",
+      "size_bytes": 15402
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\figures\\single_cell_localization_six_dogs\\Ammons_M40_signed_cycling_vs_osteoblast_six_dogs.png": {
+      "sha256": "3ed9d24b8d2ac1c0d833893d45ba576c3da077d97f366437eee0d5464acdde90",
+      "size_bytes": 215174
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\figures\\single_cell_localization_six_dogs\\Ammons_M40_signed_cycling_vs_osteoblast_six_dogs.pdf": {
+      "sha256": "de2c5614773bc6b88317af9fe72b4aa3fba8452ce6774ebc9d8c779256012c22",
+      "size_bytes": 15833
+    },
+    "C:\\Users\\olegk\\Desktop\\paper4_sarcoma_dog\\results\\tables\\paper4_locked_multidimensional_transport_evidence_with_single_cell_six_dogs.csv": {
+      "sha256": "a096f3381e2854bf49499056ddd69f59791dd544fa94e61aeed01d0b80dc6537",
+      "size_bytes": 5329
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "variable_only_mofa_alignment_manifest",
+  "axis": "unsupervised_recurrence",
+  "regression_class": "latent_model_manifest",
+  "source_repository": "paper4_sarcoma_dog",
+  "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+  "source_artifact": {
+    "path": "results/tables/multigroup_mofa_variable_only_alignment_manifest.json",
+    "sha256": "be60f367df4519490b2a9e0608e41da3c99b002ca6287c279d01c3880dd2276c",
+    "size_bytes": 5936,
+    "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+    "git_commit_date": "2026-08-06T00:14:31-04:00",
+    "git_commit_subject": "finish 40"
+  },
+  "source_script": {
+    "path": "scripts/39_align_variable_only_mofa.py",
+    "declared_version": "39-align-variable-only-mofa-v1",
+    "sha256": "c2cf9da917f84f3eda2571e9d49d315c5f9ed029620edf427ae4507347e13c1a",
+    "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+    "git_commit_date": "2026-08-06T00:14:31-04:00",
+    "git_commit_subject": "finish 40"
+  },
+  "registry_copy": {
+    "path": "reference_results/osteosarcoma_locked/artifacts/variable_only_mofa_alignment_manifest__multigroup_mofa_variable_only_alignment_manifest.json",
+    "sha256": "be60f367df4519490b2a9e0608e41da3c99b002ca6287c279d01c3880dd2276c",
+    "size_bytes": 5936
+  }
+}

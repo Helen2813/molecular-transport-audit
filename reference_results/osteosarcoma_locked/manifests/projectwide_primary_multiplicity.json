@@ -1,0 +1,28 @@
+{
+  "id": "projectwide_primary_multiplicity",
+  "axis": "clinical_outcome_transport",
+  "regression_class": "deterministic_table",
+  "source_repository": "paper4_sarcoma_dog",
+  "source_repository_head_at_registry_build": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+  "source_artifact": {
+    "path": "results/tables/paper4_projectwide_primary_multiplicity.csv",
+    "sha256": "a1bf689c3adc955d7602482c8248e0bf60c631e2f339e061698812f7decb25a6",
+    "size_bytes": 1629,
+    "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+    "git_commit_date": "2026-08-06T00:14:31-04:00",
+    "git_commit_subject": "finish 40"
+  },
+  "source_script": {
+    "path": "scripts/33_projectwide_multiplicity_assay_aware_lock.py",
+    "declared_version": "33-projectwide-multiplicity-assay-aware-lock-v1",
+    "sha256": "647c20f3aa6668a05f47213fdb176257da5b7045eb33ca73737da1c93f31adf8",
+    "git_commit": "3db7185a3d5d00924b66cf2162fcf5ed6fad41ea",
+    "git_commit_date": "2026-08-06T00:14:31-04:00",
+    "git_commit_subject": "finish 40"
+  },
+  "registry_copy": {
+    "path": "reference_results/osteosarcoma_locked/artifacts/projectwide_primary_multiplicity__paper4_projectwide_primary_multiplicity.csv",
+    "sha256": "a1bf689c3adc955d7602482c8248e0bf60c631e2f339e061698812f7decb25a6",
+    "size_bytes": 1629
+  }
+}

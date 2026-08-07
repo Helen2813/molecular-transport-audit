@@ -1,0 +1,26 @@
+{
+  "script_version": "28-conservative-module-preservation-audit-v1",
+  "created_utc": "2026-08-05T23:58:38.661543+00:00",
+  "frozen_weights_sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91",
+  "edge_permutations": 5000,
+  "loading_permutations": 5000,
+  "large_module_split_repeats": 1000,
+  "files": {
+    "cross_cohort_edge_preservation_audit.csv": {
+      "sha256": "e29862c72b0f5f0d404e72dd1e1c4f81d1284dc07fabe0de058062f60220b861",
+      "size_bytes": 8020
+    },
+    "cross_cohort_disjoint_split_half_reliability.csv": {
+      "sha256": "79e0a786216c3f156c478a8e3ad3df7f220e99d68466298d3105a695a230084d",
+      "size_bytes": 465432
+    },
+    "cross_cohort_conservative_preservation_classification.csv": {
+      "sha256": "184fd8eade2b83039c776aa0a6dcae422897907469b571f3ae65b69be7f5f25e",
+      "size_bytes": 4174
+    },
+    "cross_cohort_conservative_preservation_README.txt": {
+      "sha256": "6f08da2fca860c56f0a6f7734494ea352e006f118ba14594f4fa9f8d001677dc",
+      "size_bytes": 1194
+    }
+  }
+}

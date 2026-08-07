@@ -1,0 +1,48 @@
+version: "0.1.0"
+
+principles:
+  - Tolerances are selected by metric class, not globally.
+  - A tolerance must not be widened merely to make a regression test pass.
+  - Exact resampling schedules are preferred for stochastic analyses.
+  - Latent-factor comparisons must use scientifically invariant quantities.
+
+classes:
+
+  exact_artifact:
+    comparison: sha256
+    tolerance: none
+
+  deterministic_table:
+    comparison: schema_and_numeric_values
+    absolute_tolerance: 1.0e-10
+    relative_tolerance: 1.0e-8
+
+  statistical_model:
+    comparison: metric_specific
+    absolute_tolerance: 1.0e-6
+    relative_tolerance: 1.0e-6
+
+  stochastic_table:
+    comparison: explicit_rule_required
+    default_tolerance: null
+
+  stochastic_manifest:
+    comparison: provenance_and_configuration
+    default_tolerance: null
+
+  wgcna_table:
+    comparison: metric_specific
+    default_tolerance: null
+
+  wgcna_manifest:
+    comparison: provenance_and_configuration
+    default_tolerance: null
+
+  latent_model_manifest:
+    comparison: invariant_model_properties
+    default_tolerance: null
+
+classification_guardrail:
+  require_same_direction: true
+  require_same_significance_class_for_frozen_results: true
+  require_same_evidence_class_for_frozen_results: true

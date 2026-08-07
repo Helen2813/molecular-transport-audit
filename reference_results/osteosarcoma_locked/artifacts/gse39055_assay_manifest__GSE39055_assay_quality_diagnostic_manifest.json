@@ -1,0 +1,123 @@
+{
+  "script_version": "31-gse39055-assay-quality-diagnostic-v2",
+  "created_utc": "2026-08-06T01:11:38.235146+00:00",
+  "detection_thresholds": {
+    "strict_p": 0.01,
+    "relaxed_p": 0.05,
+    "minimum_fraction_50": 0.5,
+    "minimum_fraction_80": 0.8
+  },
+  "detection_columns_by_sample": {
+    "GSM954790": "Detection PVal",
+    "GSM954791": "Detection PVal",
+    "GSM954792": "Detection PVal",
+    "GSM954793": "Detection PVal",
+    "GSM954794": "Detection PVal",
+    "GSM954795": "Detection PVal",
+    "GSM954796": "Detection PVal",
+    "GSM954797": "Detection PVal",
+    "GSM954798": "Detection PVal",
+    "GSM954799": "Detection PVal",
+    "GSM954800": "Detection PVal",
+    "GSM954801": "Detection PVal",
+    "GSM954802": "Detection PVal",
+    "GSM954803": "Detection PVal",
+    "GSM954804": "Detection PVal",
+    "GSM954805": "Detection PVal",
+    "GSM954806": "Detection PVal",
+    "GSM954807": "Detection PVal",
+    "GSM954808": "Detection PVal",
+    "GSM954809": "Detection PVal",
+    "GSM954810": "Detection PVal",
+    "GSM954811": "Detection PVal",
+    "GSM954812": "Detection PVal",
+    "GSM954813": "Detection PVal",
+    "GSM954814": "Detection PVal",
+    "GSM954815": "Detection PVal",
+    "GSM954816": "Detection PVal",
+    "GSM954817": "Detection PVal",
+    "GSM954818": "Detection PVal",
+    "GSM954819": "Detection PVal",
+    "GSM954820": "Detection PVal",
+    "GSM954821": "Detection PVal",
+    "GSM954822": "Detection PVal",
+    "GSM954823": "Detection PVal",
+    "GSM954824": "Detection PVal",
+    "GSM954825": "Detection PVal",
+    "GSM954826": "Detection PVal"
+  },
+  "guardrails": [
+    "No outcome-guided probe selection.",
+    "No change to frozen genes, loadings, directions, or tiers.",
+    "No replacement of the locked script 26 primary analysis.",
+    "Canonical genes are descriptive assay checks only."
+  ],
+  "inputs": {
+    "GSE39055_family.soft.gz": {
+      "sha256": "d3331169325e87334248367b954363296032bdc57ff66beb4f74f3b01e4e42c7",
+      "size_bytes": 20932747
+    },
+    "GSE238110_frozen_transfer_gene_weights_strict.csv": {
+      "sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91",
+      "size_bytes": 50062
+    },
+    "GSE39055_clinical_standardized.csv": {
+      "sha256": "e6fc6f1a983bcd85d8eb5aefeaa46af9fe8f8ce405e5982f0bb39df456665304",
+      "size_bytes": 92970
+    },
+    "GSE39055_frozen_transfer_scores.csv": {
+      "sha256": "b28eca9fbef93ce82bbc33bd7f7780060031e6381a8df9ecc544cd82d94fe359",
+      "size_bytes": 51525
+    },
+    "GSE39055_probe_to_gene_symbol_selected.csv": {
+      "sha256": "00a773be24c545aaed9f22fa2e35594e946925026e5cb37c64a572b53288df99",
+      "size_bytes": 828204
+    },
+    "GSE39055_RFS_primary_frozen_program_validation.csv": {
+      "sha256": "1945cca593030f57cbaf6eef3006391b4fc3ad2ff334d99e34cc81436533951e",
+      "size_bytes": 2216
+    }
+  },
+  "outputs": {
+    "GSE39055_probe_assay_quality.csv": {
+      "sha256": "045704a7132bc28a5e6cebbc888f38ba31190fae816e9f879c0c876b66232357",
+      "size_bytes": 4656691
+    },
+    "GSE39055_gene_probe_selection_comparison.csv": {
+      "sha256": "ade10b84086b292e10535a21e45e559513c1ed686f808bd50558b8566d4bea53",
+      "size_bytes": 6906992
+    },
+    "GSE39055_detection_aware_module_coverage.csv": {
+      "sha256": "b54c838913171e8c9c3d586100cb1593a24d0987dab0c8024092716249695ca0",
+      "size_bytes": 10820
+    },
+    "GSE39055_detection_aware_frozen_scores.csv": {
+      "sha256": "c22737ca9301bbc3f774e36336e9f39d87f75e9c8014b15e47702c75a02169bc",
+      "size_bytes": 12506
+    },
+    "GSE39055_detection_aware_RFS_sensitivity.csv": {
+      "sha256": "4bf8dea35f0469e90272352765cd6476ef9fcf3bd669e95fd17f82deb2dbe478",
+      "size_bytes": 3031
+    },
+    "GSE39055_canonical_gene_assay_audit.csv": {
+      "sha256": "4bd5f7001d53d6bccb9fbe6d50c179d7d86ad51beb1d9352e572c50fcb08175c",
+      "size_bytes": 7970
+    },
+    "GSE39055_sample_assay_quality.csv": {
+      "sha256": "6c89881ba9104a36810afa292ee8789427c3bda4bc6bcb94a75d386de08175a6",
+      "size_bytes": 5847
+    },
+    "GSE39055_assay_quality_endpoint_diagnostics.csv": {
+      "sha256": "16d889f92e140adc9af0be4774b843bec778357cac5022674479ef18cc144e6b",
+      "size_bytes": 4711
+    },
+    "GSE39055_assay_quality_module_summary.csv": {
+      "sha256": "0fdc2fb790819356e2d460dc508b7aa1db31d31443bd73a4eca38d04eeb26a41",
+      "size_bytes": 1121
+    },
+    "GSE39055_assay_quality_diagnostic_README.txt": {
+      "sha256": "c834f966e3a0cb50689549d0a16ca043a9f22e89a7668280c008654e0fc7d923",
+      "size_bytes": 1369
+    }
+  }
+}

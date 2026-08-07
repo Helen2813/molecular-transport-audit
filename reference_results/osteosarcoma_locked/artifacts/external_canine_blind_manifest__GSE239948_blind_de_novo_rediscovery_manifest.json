@@ -1,0 +1,69 @@
+{
+  "script_version": "49-gse239948-blind-de-novo-rediscovery-v2",
+  "created_utc": "2026-08-06T19:53:40.911835+00:00",
+  "outcome_loaded": false,
+  "discovery_top_variable_genes": 3000,
+  "minimum_discovered_module_size": 5,
+  "correlation_graph_nominal_p": 0.01,
+  "full_cohort_r_cut": 0.3536364113374526,
+  "subsample_repeats": 30,
+  "subsample_fraction": 0.8,
+  "random_panels": 2000,
+  "random_seed": 20260806,
+  "cluster_min_variance": 1e-12,
+  "guardrails": [
+    "Frozen module membership is not used during discovery clustering.",
+    "Frozen programs are loaded only after de novo modules are constructed.",
+    "Random nulls include maximum matching across all discovered modules.",
+    "Zero or near-zero variance genes are removed within each subsample before clustering.",
+    "No outcome data are loaded."
+  ],
+  "inputs": {
+    "canine_validation_GSE239948_expression_log2_symbol.csv": {
+      "sha256": "168fa2693ceb1df4ebbe22ea3e92ddb5e79e2f06024a546202d73b53d3945176",
+      "size_bytes": 10697486
+    },
+    "GSE238110_frozen_transfer_gene_weights_strict.csv": {
+      "sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91",
+      "size_bytes": 50062
+    },
+    "paper4_locked_independent_canine_representation.csv": {
+      "sha256": "642ee4b0a1e5a04a5cdefb3d03d5329bde5ce920f77939473f151e51b3241d89",
+      "size_bytes": 4013
+    },
+    "paper4_external_canine_evidence_manifest.json": {
+      "sha256": "78459cfdb60847dacfc74f7aea9de2bb7b9a10dad0d64853cbffcf92001dc2a5",
+      "size_bytes": 9546
+    }
+  },
+  "outputs": {
+    "GSE239948_blind_discovery_gene_universe.csv": {
+      "sha256": "3820ab6e2cd6e7800b333c616da30c9c07ded02791b2984da7595d5c41e5cef8",
+      "size_bytes": 770594
+    },
+    "GSE239948_blind_discovered_module_membership.csv": {
+      "sha256": "6c9287c871f52643166227c7457b8bf201456e7f82889137d3da5c549a5542cd",
+      "size_bytes": 143129
+    },
+    "GSE239948_blind_discovered_module_summary.csv": {
+      "sha256": "1260a33a86200176b78312270f8ee19e404897c27efb175e240883ecbc681bb7",
+      "size_bytes": 21543
+    },
+    "GSE239948_blind_discovered_module_subsample_stability.csv": {
+      "sha256": "7f9a147427c9ffa6266cf54d2d433376feb28d768a7e6c9f8971a403692734e3",
+      "size_bytes": 12998
+    },
+    "GSE239948_blind_frozen_program_rediscovery.csv": {
+      "sha256": "473895e65c3d9ec8367036e38e5be29209389f522b237afc5faa80c0aeca9446",
+      "size_bytes": 1652
+    },
+    "GSE239948_blind_frozen_program_random_controls.csv": {
+      "sha256": "aa25d096e9d1fa995055c8152ca476447055f0b4103907fd274a899c43805299",
+      "size_bytes": 387219
+    },
+    "GSE239948_blind_de_novo_rediscovery_README.txt": {
+      "sha256": "f966641c1e87dcf4b6bd922406dc089ae481ada3988717a35b33221dbf2914a9",
+      "size_bytes": 2053
+    }
+  }
+}

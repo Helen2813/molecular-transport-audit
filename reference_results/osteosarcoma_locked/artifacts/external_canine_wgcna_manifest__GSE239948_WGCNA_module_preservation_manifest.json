@@ -1,0 +1,68 @@
+{
+  "script_version": "50-wgcna-module-preservation-benchmark-v1",
+  "created_utc": "2026-08-06T20:22:01.918791+00:00",
+  "outcome_loaded": false,
+  "network_type": "signed",
+  "n_permutations": 200,
+  "random_seed": 20260806,
+  "background_genes_requested": 3000,
+  "rscript": "C:\\Program Files\\R\\R-4.5.2\\bin\\x64\\Rscript.exe",
+  "inputs": {
+    "GSE238110_DOG2_expression_log2cpm_matched_allgenes.csv": {
+      "sha256": "6deae6ee8a2663fc4f7be1bb560831c465b295e5b0282bd495934222bbe16997",
+      "size_bytes": 63143134
+    },
+    "canine_validation_GSE239948_expression_log2_symbol.csv": {
+      "sha256": "168fa2693ceb1df4ebbe22ea3e92ddb5e79e2f06024a546202d73b53d3945176",
+      "size_bytes": 10697486
+    },
+    "GSE238110_frozen_transfer_gene_weights_strict.csv": {
+      "sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91",
+      "size_bytes": 50062
+    },
+    "paper4_locked_independent_canine_representation.csv": {
+      "sha256": "642ee4b0a1e5a04a5cdefb3d03d5329bde5ce920f77939473f151e51b3241d89",
+      "size_bytes": 4013
+    },
+    "paper4_external_canine_evidence_manifest.json": {
+      "sha256": "78459cfdb60847dacfc74f7aea9de2bb7b9a10dad0d64853cbffcf92001dc2a5",
+      "size_bytes": 9546
+    },
+    "GSE239948_blind_frozen_program_rediscovery.csv": {
+      "sha256": "473895e65c3d9ec8367036e38e5be29209389f522b237afc5faa80c0aeca9446",
+      "size_bytes": 1652
+    },
+    "GSE239948_blind_de_novo_rediscovery_manifest.json": {
+      "sha256": "b57dfff98c8de8f536f032763e32da9a7b4bd6d44dd1fb28e46e762e579f25bb",
+      "size_bytes": 2864
+    }
+  },
+  "outputs": {
+    "GSE239948_WGCNA_module_preservation_input_universe.csv": {
+      "sha256": "c92609c60f243fabd63993bc757c441a25ce8f432f46b49f53f2f6331c8d3834",
+      "size_bytes": 266528
+    },
+    "GSE239948_WGCNA_module_preservation_signed.csv": {
+      "sha256": "0b98b6fe9e170bcbb207f23f274237a9a7d729598eaccb6b65c2b13ce9cb26dd",
+      "size_bytes": 760
+    },
+    "paper4_GSE239948_preservation_method_concordance.csv": {
+      "sha256": "016573a626a3812fd244541014d21af0073cf7dc9859deaea2103c126034dce0",
+      "size_bytes": 2833
+    },
+    "GSE239948_WGCNA_module_preservation_README.txt": {
+      "sha256": "2dc65bf0d0cf1fb7af7d4f0f03054c1b4ff2aa80a3b399905e66d6ca22ee2c60",
+      "size_bytes": 1802
+    },
+    "GSE239948_WGCNA_module_preservation_R.log": {
+      "sha256": "a7356552f9083831cc7c6e6c760c367d25706f8d62e9a9a42f44eb8a64ce5edd",
+      "size_bytes": 288
+    }
+  },
+  "guardrails": [
+    "No outcome data are loaded.",
+    "Frozen module definitions are not modified.",
+    "WGCNA is used as a benchmark rather than as a replacement for the custom preservation analysis.",
+    "Small-module Z statistics are interpreted cautiously because of module-size dependence."
+  ]
+}

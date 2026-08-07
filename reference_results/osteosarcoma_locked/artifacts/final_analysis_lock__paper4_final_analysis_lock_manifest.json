@@ -1,0 +1,82 @@
+{
+  "script_version": "51-final-lock-external-canine-triangulation-v1",
+  "created_utc": "2026-08-06T20:33:36.477698+00:00",
+  "analysis_type": "evidence_lock_only",
+  "new_statistical_tests": false,
+  "feature_selection": false,
+  "outcome_model_fitting": false,
+  "module_redefinition": false,
+  "source_master": "paper4_locked_multidimensional_transport_evidence_with_single_cell_and_external_canine.csv",
+  "inputs": {
+    "paper4_locked_multidimensional_transport_evidence_with_single_cell_and_external_canine.csv": {
+      "sha256": "2fc1a71d9cf07bf0fd8516ea2c45668fa2622c1365338c249097181d3d5f307e",
+      "size_bytes": 10851
+    },
+    "paper4_locked_independent_canine_representation.csv": {
+      "sha256": "642ee4b0a1e5a04a5cdefb3d03d5329bde5ce920f77939473f151e51b3241d89",
+      "size_bytes": 4013
+    },
+    "paper4_external_canine_evidence_manifest.json": {
+      "sha256": "78459cfdb60847dacfc74f7aea9de2bb7b9a10dad0d64853cbffcf92001dc2a5",
+      "size_bytes": 9546
+    },
+    "GSE239948_blind_frozen_program_rediscovery.csv": {
+      "sha256": "473895e65c3d9ec8367036e38e5be29209389f522b237afc5faa80c0aeca9446",
+      "size_bytes": 1652
+    },
+    "GSE239948_blind_de_novo_rediscovery_manifest.json": {
+      "sha256": "b57dfff98c8de8f536f032763e32da9a7b4bd6d44dd1fb28e46e762e579f25bb",
+      "size_bytes": 2864
+    },
+    "GSE239948_WGCNA_module_preservation_signed.csv": {
+      "sha256": "0b98b6fe9e170bcbb207f23f274237a9a7d729598eaccb6b65c2b13ce9cb26dd",
+      "size_bytes": 760
+    },
+    "paper4_GSE239948_preservation_method_concordance.csv": {
+      "sha256": "016573a626a3812fd244541014d21af0073cf7dc9859deaea2103c126034dce0",
+      "size_bytes": 2833
+    },
+    "GSE239948_WGCNA_module_preservation_manifest.json": {
+      "sha256": "505fbe4316eac45a84527fc64986e81c51572d297856fc7eb712630f247d736d",
+      "size_bytes": 2852
+    },
+    "GSE39055_necrosis_primary_exploratory.csv": {
+      "sha256": "99e59a6dd677872f9e659465b48ef8ca704699f3a9158f3cfcad6c08ce5c3db9",
+      "size_bytes": 2569
+    }
+  },
+  "outputs": {
+    "paper4_locked_external_canine_triangulation.csv": {
+      "sha256": "196dace12b765f7442662a5c6ce3799bee912bce2da0aa52357114c0ed18feb0",
+      "size_bytes": 6170
+    },
+    "paper4_locked_multidimensional_transport_evidence_final.csv": {
+      "sha256": "295daa735f335d06d83dc28e981d5e995711216e687524de3000b65f49296961",
+      "size_bytes": 14576
+    },
+    "paper4_locked_final_module_interpretation.csv": {
+      "sha256": "ccab4f6e11cea26556137e9dc53db79b1790a1a82bae0db04bf454b39fe82cce",
+      "size_bytes": 2355
+    },
+    "paper4_locked_final_results_sentences.txt": {
+      "sha256": "d4fa9f4c8f98eb8f431d15304e708acfe405b05b562d29d0e85e1f226e78241b",
+      "size_bytes": 1719
+    },
+    "paper4_locked_final_claim_guardrails.txt": {
+      "sha256": "e4bf802aaa9b5a8a02a56d03771280259c698729d9be93f814e65c1d52d07f8e",
+      "size_bytes": 832
+    },
+    "paper4_final_analysis_lock_README.txt": {
+      "sha256": "41f36f0946f965c4d20c94a05c3ec698b0d24dead51f14bc0992e7a918936ef8",
+      "size_bytes": 2122
+    }
+  },
+  "guardrails": [
+    "Scripts 47, 49, and 50 are integrated without rerunning their analyses.",
+    "M34 blind rediscovery is described as statistically supported partial core recovery.",
+    "M40 is the strongest tri-method external canine architecture replication.",
+    "M11 and M24 WGCNA results remain small-module supportive sensitivities.",
+    "Existing project-wide human multiplicity conclusions are unchanged.",
+    "No additional outcome-driven tuning is permitted by this lock."
+  ]
+}
