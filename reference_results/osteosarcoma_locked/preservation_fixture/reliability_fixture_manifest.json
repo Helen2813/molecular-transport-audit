@@ -1,0 +1,54 @@
+{
+  "fixture_builder_version": "0.1.0",
+  "created_at_utc": "2026-08-08T02:54:40.394179+00:00",
+  "source_script_version": "46-gse239948-external-canine-representation-v2",
+  "source_legacy_manifest_sha256": "eae7ad5cd8f62a991e1fc50121adbf54c18ac7f1876a6ed0466dfefc7427c49a",
+  "base_preservation_fixture_manifest_sha256": "fdc95f6d8f1019923b57e42b40de3265ce84db560353e37223cf10db0948c5c7",
+  "outcome_loaded": false,
+  "contract": {
+    "modules": [
+      "M34",
+      "M11",
+      "M24",
+      "M40"
+    ],
+    "split_half_repeats": 2000,
+    "base_seed": 42,
+    "module_seed_stride": 100,
+    "split_half_seed_offset": 2,
+    "split_half_seeds": {
+      "M34": 44,
+      "M11": 144,
+      "M24": 244,
+      "M40": 344
+    },
+    "split_rule": "rng_permutation_of_gene_order_then_floor_half_nonoverlapping",
+    "half_score": "frozen_signed_mean_unstandardized",
+    "half_agreement": "pearson_correlation",
+    "summary": "median_q05_q95",
+    "gene_loo": "pearson_correlation_of_each_leave_one_gene_out_score_with_full_frozen_signed_score",
+    "minimum_module_genes": 3
+  },
+  "authoritative_source_outputs": {
+    "GSE239948_external_module_score_reliability.csv": {
+      "sha256": "3a9412a26547cbb926eaccf38451373d82d6282884da5f6c0724be31825e183a"
+    },
+    "GSE239948_external_module_gene_leave_one_out.csv": {
+      "sha256": "af1c55371afd999ae4d05a517d9bc3cd90a0ee9dad9437b7e94d1bdaf895a37d"
+    }
+  },
+  "fixture_files": {
+    "expected_split_half_reliability.csv": {
+      "sha256": "77c6c3df4c4e26095d6672a1a4500a3c12a111ff942eaa9666554c3a95395c0e",
+      "size_bytes": 588,
+      "rows": 4,
+      "columns": 8
+    },
+    "expected_gene_leave_one_out.csv": {
+      "sha256": "af1c55371afd999ae4d05a517d9bc3cd90a0ee9dad9437b7e94d1bdaf895a37d",
+      "size_bytes": 9323,
+      "rows": 272,
+      "columns": 4
+    }
+  }
+}
