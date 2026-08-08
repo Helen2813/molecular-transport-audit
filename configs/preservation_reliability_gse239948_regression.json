@@ -1,0 +1,18 @@
+{
+  "config_version": "0.1.0",
+  "external_cohort": "GSE239948",
+  "minimum_genes": 3,
+  "split_half_repeats": 2000,
+  "base_seed": 42,
+  "module_seed_stride": 100,
+  "split_half_seed_offset": 2,
+  "module_order": [
+    "M34",
+    "M11",
+    "M24",
+    "M40"
+  ],
+  "scope": "split_half_and_gene_leave_one_out_reliability",
+  "outcome_loaded": false,
+  "guardrail": "Frozen genes, loadings, signs, module definitions, split-half schedule, and leave-one-out definition remain unchanged. No outcome data may be used."
+}
