@@ -1,0 +1,61 @@
+{
+  "fixture_builder_version": "0.2.0",
+  "created_at_utc": "2026-08-08T16:17:33.727030+00:00",
+  "source_script_version": "46-gse239948-external-canine-representation-v2",
+  "outcome_loaded": false,
+  "authoritative_input_path": {
+    "source": "raw_GSE239948_reconstruction",
+    "external_column": "Name",
+    "frozen_identifier_column": "canine_gene_symbol",
+    "identifier_scheme": "symbol",
+    "transform": "log2_x_plus_1"
+  },
+  "contract": {
+    "modules": [
+      "M34",
+      "M11",
+      "M24",
+      "M40"
+    ],
+    "shared_genes": 13484,
+    "candidate_genes": 13212,
+    "random_panels": 1000,
+    "variability_bins": 10,
+    "random_seed": 42,
+    "legacy_matching_mode": "legacy_z_variance",
+    "corrected_matching_mode": "prestandardization_variance",
+    "legacy_numerical_warning": "Legacy variability bins are defined from variance after gene-wise z-standardization and are sensitive to decimal serialization round trips.",
+    "fixture_serialization": "float64_npy_before_z_standardization"
+  },
+  "dimensions": {
+    "reference_samples": 186,
+    "external_samples": 43,
+    "shared_genes": 13484
+  },
+  "fixture_files": {
+    "random_panel_DOG2_prestandardization.npy": {
+      "sha256": "74eba5cfbab5cb2edea2158ae12c2d8fdd8eb4badb871fcee96fff92d665782b",
+      "size_bytes": 20064320
+    },
+    "random_panel_GSE239948_prestandardization.npy": {
+      "sha256": "54d645bedeff0b661a8c0ecdb526def2a26444701d82d2dc4e599be7df953391",
+      "size_bytes": 4638624
+    },
+    "random_panel_background_genes.csv": {
+      "sha256": "6dadd784ea160e88bfee3ca19f30d10c15d41b7e97d4f5fc16cec49e4add899b",
+      "size_bytes": 99005
+    },
+    "expected_legacy_random_panel_bins.csv": {
+      "sha256": "e5b8c3abf918050b562ef73f82fee7b13d5c6b320a2d23438dd8a122536044fd",
+      "size_bytes": 125996
+    },
+    "expected_legacy_random_panel_controls.csv": {
+      "sha256": "472b0676317ed64e2e56d02772e918375b2b96013ed4bb7219f5dac18c979195",
+      "size_bytes": 589
+    },
+    "expected_legacy_representation_classification.csv": {
+      "sha256": "b4c966b753d7fd8d4132445ec71a1365be3774aee8f2d745bff4cbed62aa812e",
+      "size_bytes": 1564
+    }
+  }
+}

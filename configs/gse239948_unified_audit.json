@@ -1,0 +1,45 @@
+{
+  "config_version": "0.1.0",
+  "analysis_id": "gse239948_external_canine_audit",
+  "reference_cohort": "GSE238110_DOG2",
+  "external_cohort": "GSE239948",
+
+  "module_order": [
+    "M34",
+    "M11",
+    "M24",
+    "M40"
+  ],
+
+  "minimum_genes": 3,
+  "pca_random_state": 42,
+  "base_seed": 42,
+
+  "permutations": 5000,
+  "permutation_base_seed": 42,
+  "module_seed_stride": 100,
+
+  "split_half_repeats": 2000,
+  "split_half_seed_offset": 2,
+
+  "random_panels": 1000,
+  "random_panel_seed": 42,
+  "random_panel_variability_bins": 10,
+  "random_panel_matching_mode": "prestandardization_variance",
+
+  "outcome_loaded": false,
+
+  "expected_corrected_random_extreme_counts": {
+    "M34": 0,
+    "M11": 800,
+    "M24": 776,
+    "M40": 0
+  },
+
+  "expected_classification": {
+    "M34": "strong_external_canine_representation_preservation",
+    "M11": "no_clear_external_canine_representation_preservation",
+    "M24": "no_clear_external_canine_representation_preservation",
+    "M40": "strong_external_canine_representation_preservation"
+  }
+}
