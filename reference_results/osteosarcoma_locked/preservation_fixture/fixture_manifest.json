@@ -1,0 +1,146 @@
+{
+  "fixture_builder_version": "0.1.0",
+  "created_at_utc": "2026-08-08T01:49:50.737439+00:00",
+  "study": "canine-human-osteosarcoma",
+  "reference_cohort": "GSE238110_DOG2",
+  "external_cohort": "GSE239948",
+  "source_repository": "paper4_sarcoma_dog",
+  "source_repository_head": "aba92fa57af165b2ef433ae9e581a9278a04e7bf",
+  "source_script": {
+    "path": "scripts\\46_gse239948_external_canine_representation_v2.py",
+    "script_version": "46-gse239948-external-canine-representation-v2",
+    "sha256": "eade633a0d4a11419af829380a46e92dac3adf17a4d2d09c6691f6df28aca106"
+  },
+  "legacy_manifest": {
+    "path": "results\\tables\\GSE239948_external_representation_manifest.json",
+    "sha256": "eae7ad5cd8f62a991e1fc50121adbf54c18ac7f1876a6ed0466dfefc7427c49a",
+    "outcome_loaded": false,
+    "gene_label_permutations": 5000,
+    "random_panels": 1000,
+    "split_half_repeats": 2000
+  },
+  "verified_legacy_outputs": {
+    "canine_validation_GSE239948_expression_log2_symbol.csv": {
+      "path": "data\\processed\\canine_validation_GSE239948_expression_log2_symbol.csv",
+      "sha256": "168fa2693ceb1df4ebbe22ea3e92ddb5e79e2f06024a546202d73b53d3945176",
+      "size_bytes": 10697486,
+      "legacy_manifest_verified": true
+    },
+    "GSE239948_external_frozen_program_coverage.csv": {
+      "path": "results\\tables\\GSE239948_external_frozen_program_coverage.csv",
+      "sha256": "8a3f4d87bb9ebf1bf0d0a3c1c69f38e95d020abed5968a350f5c1db21578cf80",
+      "size_bytes": 2008,
+      "legacy_manifest_verified": true
+    },
+    "GSE239948_external_module_structure_preservation.csv": {
+      "path": "results\\tables\\GSE239948_external_module_structure_preservation.csv",
+      "sha256": "3a23d206704be171b611cae997e9ebeebbbaf943b8d6a6b09e821f4ed1c9e305",
+      "size_bytes": 1022,
+      "legacy_manifest_verified": true
+    },
+    "GSE239948_external_module_score_reliability.csv": {
+      "path": "results\\tables\\GSE239948_external_module_score_reliability.csv",
+      "sha256": "3a9412a26547cbb926eaccf38451373d82d6282884da5f6c0724be31825e183a",
+      "size_bytes": 588,
+      "legacy_manifest_verified": true
+    }
+  },
+  "source_inputs": {
+    "reference_expression": {
+      "path": "data\\processed\\GSE238110_DOG2_expression_log2cpm_matched_allgenes.csv",
+      "sha256": "6deae6ee8a2663fc4f7be1bb560831c465b295e5b0282bd495934222bbe16997"
+    },
+    "strict_weights": {
+      "path": "results\\tables\\GSE238110_frozen_transfer_gene_weights_strict.csv",
+      "sha256": "4f065aa4c4edf117a0c74015840d2b4b2347929f172cd517e1818ba0f6163b91"
+    },
+    "gene_map": {
+      "path": "results\\tables\\GSE239948_external_gene_mapping.csv",
+      "sha256": "56aff5474085f70f9ffb7b54024ba3ccbe40517bef5b48b09fc6e6b39fd034d3"
+    }
+  },
+  "fixture_contract": {
+    "primary_modules": [
+      "M34",
+      "M11",
+      "M24",
+      "M40"
+    ],
+    "minimum_module_genes": 3,
+    "reference_gene_standardization": "within_cohort_sample_sd_ddof_1",
+    "external_gene_standardization": "within_cohort_sample_sd_ddof_1",
+    "edge_matrix": "pearson_gene_gene_correlation",
+    "edge_summary": "spearman_between_upper_triangles",
+    "external_loading_model": "first_principal_component",
+    "external_pc1_orientation": "orient_to_positive_correlation_with_frozen_signed_score",
+    "loading_summary": "spearman_frozen_risk_loadings_vs_oriented_external_pc1_loadings",
+    "outcome_loaded": false,
+    "initial_reusable_scope": "direct_preservation_metrics_before_random_controls"
+  },
+  "fixture_dimensions": {
+    "reference_samples": 186,
+    "external_samples": 43,
+    "common_fixture_genes": 272,
+    "primary_weight_rows": 287
+  },
+  "module_coverage": {
+    "M34": {
+      "n_frozen_genes": 162,
+      "n_common_genes": 154,
+      "coverage_fraction": 0.9506172839506172
+    },
+    "M11": {
+      "n_frozen_genes": 7,
+      "n_common_genes": 6,
+      "coverage_fraction": 0.8571428571428571
+    },
+    "M24": {
+      "n_frozen_genes": 7,
+      "n_common_genes": 6,
+      "coverage_fraction": 0.8571428571428571
+    },
+    "M40": {
+      "n_frozen_genes": 111,
+      "n_common_genes": 106,
+      "coverage_fraction": 0.954954954954955
+    }
+  },
+  "fixture_files": {
+    "DOG2_reference_module_expression.csv": {
+      "sha256": "88b327e49ee68e866da76804134e2148dd8966dcbec6c44d25a488129116dc57",
+      "size_bytes": 918604,
+      "rows": 186,
+      "columns": 273
+    },
+    "GSE239948_external_module_expression.csv": {
+      "sha256": "eff31ee3da4f7b8cafcdecadbaac80cf3af5b79b2794a03b00097c5c840113c2",
+      "size_bytes": 211660,
+      "rows": 43,
+      "columns": 273
+    },
+    "primary_canine_program_weights.csv": {
+      "sha256": "c75fe6edd729ad0042ea04b15c55060edc10ec7b1c0d309a9f91383cba615bb6",
+      "size_bytes": 43460,
+      "rows": 287,
+      "columns": 12
+    },
+    "expected_preservation_coverage.csv": {
+      "sha256": "d7f0b46712ffdd8077259c2d04fdcecda31a3b384b99aa7022fa0d1f1a7b232a",
+      "size_bytes": 2008,
+      "rows": 4,
+      "columns": 6
+    },
+    "expected_direct_preservation.csv": {
+      "sha256": "9d1dafa33fc6c4a7332c17852192b0a9fdf2487e79c65aa9609a23084d329e66",
+      "size_bytes": 1006,
+      "rows": 4,
+      "columns": 14
+    },
+    "expected_split_half_reliability.csv": {
+      "sha256": "77c6c3df4c4e26095d6672a1a4500a3c12a111ff942eaa9666554c3a95395c0e",
+      "size_bytes": 588,
+      "rows": 4,
+      "columns": 8
+    }
+  }
+}
