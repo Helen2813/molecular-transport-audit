@@ -1,0 +1,16 @@
+{
+  "config_version": "0.1.0",
+  "reference_cohort": "GSE238110_DOG2",
+  "external_cohort": "GSE239948",
+  "minimum_genes": 3,
+  "pca_random_state": 42,
+  "module_order": [
+    "M34",
+    "M11",
+    "M24",
+    "M40"
+  ],
+  "scope": "deterministic_direct_preservation",
+  "outcome_loaded": false,
+  "guardrail": "Frozen genes, loadings, signs, and module definitions remain unchanged. No outcome data may be used."
+}
