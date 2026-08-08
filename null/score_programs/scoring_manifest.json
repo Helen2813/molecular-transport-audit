@@ -1,0 +1,62 @@
+{
+  "script_version": "0.1.0",
+  "transport_audit_version": "0.1.0",
+  "created_at_utc": "2026-08-08T01:20:39.822462+00:00",
+  "scientific_role": "frozen_program_scoring",
+  "outcome_loaded": false,
+  "configuration": {
+    "config_version": "0.1.0",
+    "cohort": "TARGET_OS",
+    "mapping_name": "strict",
+    "minimum_genes": 3,
+    "minimum_fraction": 0.5,
+    "module_order": [
+      "M34",
+      "M11",
+      "M24",
+      "M40"
+    ],
+    "guardrail": "Frozen scoring only. No outcome data may be used for gene selection, weighting, orientation, or coverage decisions."
+  },
+  "input": {
+    "expression": {
+      "sha256": "2b89a23304fe94385b5ad9b083211a4e2900c1f7b9152e50e6841cdc1d4be98d",
+      "n_samples": 88,
+      "n_genes": 287
+    },
+    "weights": {
+      "sha256": "c75fe6edd729ad0042ea04b15c55060edc10ec7b1c0d309a9f91383cba615bb6",
+      "n_rows": 287
+    },
+    "config": {
+      "sha256": "fa75ef1b25ea620e5df31b2dfa97af9f8cdd2e505370ecc47d2cafcd3aa3d921"
+    }
+  },
+  "output": {
+    "scores": {
+      "sha256": "6643e1fde9c981e87be18ffae65eea1b82c602cd23c1c75c3cf704b330ed06c6",
+      "n_samples": 88,
+      "n_score_columns": 8,
+      "columns": [
+        "M34__strict__signed_mean_z",
+        "M34__strict__canine_pca_weighted_z",
+        "M11__strict__signed_mean_z",
+        "M11__strict__canine_pca_weighted_z",
+        "M24__strict__signed_mean_z",
+        "M24__strict__canine_pca_weighted_z",
+        "M40__strict__signed_mean_z",
+        "M40__strict__canine_pca_weighted_z"
+      ]
+    },
+    "coverage": {
+      "sha256": "92ea092084d8eafa07c6c4fd22c103505c3b3442b0f1fbd9fe866c5a8e82d8e0",
+      "n_rows": 4
+    }
+  },
+  "guardrails": [
+    "Frozen program membership and loadings are unchanged.",
+    "No outcome data are loaded.",
+    "Coverage decisions use only expression availability.",
+    "The adapter delegates all scientific scoring logic to transport_audit.scoring."
+  ]
+}

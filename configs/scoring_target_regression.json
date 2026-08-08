@@ -1,0 +1,14 @@
+{
+  "config_version": "0.1.0",
+  "cohort": "TARGET_OS",
+  "mapping_name": "strict",
+  "minimum_genes": 3,
+  "minimum_fraction": 0.5,
+  "module_order": [
+    "M34",
+    "M11",
+    "M24",
+    "M40"
+  ],
+  "guardrail": "Frozen scoring only. No outcome data may be used for gene selection, weighting, orientation, or coverage decisions."
+}

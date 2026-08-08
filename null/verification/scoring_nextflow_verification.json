@@ -1,0 +1,61 @@
+{
+  "script_version": "0.1.0",
+  "created_at_utc": "2026-08-08T01:20:40.984698+00:00",
+  "passed": true,
+  "scores_match": true,
+  "coverage_match": true,
+  "n_samples": 88,
+  "n_score_columns": 8,
+  "max_absolute_score_difference": 8.881784197001252e-16,
+  "absolute_tolerance": 1e-10,
+  "relative_tolerance": 1e-08,
+  "coverage_mismatches": [],
+  "score_columns": [
+    {
+      "score_column": "M34__strict__signed_mean_z",
+      "matched": true,
+      "max_absolute_difference": 6.661338147750939e-16
+    },
+    {
+      "score_column": "M34__strict__canine_pca_weighted_z",
+      "matched": true,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "score_column": "M11__strict__signed_mean_z",
+      "matched": true,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "score_column": "M11__strict__canine_pca_weighted_z",
+      "matched": true,
+      "max_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "score_column": "M24__strict__signed_mean_z",
+      "matched": true,
+      "max_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "score_column": "M24__strict__canine_pca_weighted_z",
+      "matched": true,
+      "max_absolute_difference": 8.881784197001252e-16
+    },
+    {
+      "score_column": "M40__strict__signed_mean_z",
+      "matched": true,
+      "max_absolute_difference": 4.440892098500626e-16
+    },
+    {
+      "score_column": "M40__strict__canine_pca_weighted_z",
+      "matched": true,
+      "max_absolute_difference": 6.661338147750939e-16
+    }
+  ],
+  "artifacts": {
+    "observed_scores_sha256": "6643e1fde9c981e87be18ffae65eea1b82c602cd23c1c75c3cf704b330ed06c6",
+    "observed_coverage_sha256": "92ea092084d8eafa07c6c4fd22c103505c3b3442b0f1fbd9fe866c5a8e82d8e0",
+    "expected_scores_sha256": "dc80741ef2b5662d12425360ec2dd01ab52f6a66c4768c80811d135b0dc88f76",
+    "expected_coverage_sha256": "5c46aa04df8ee85f83c365fc6731e84f00553eca90e05b090e2c8802dc61c30f"
+  }
+}
