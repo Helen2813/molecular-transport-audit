@@ -2,6 +2,7 @@ const API_BASE_URL =
   import.meta.env.VITE_API_BASE_URL ??
   "/api";
 
+
 export class ApiError extends Error {
   readonly status: number;
 
@@ -16,20 +17,26 @@ export class ApiError extends Error {
   }
 }
 
-export async function apiGet<T>(
+
+async function apiRequest<T>(
   path: string,
-  signal?: AbortSignal,
+  options: RequestInit,
 ): Promise<T> {
   const response = await fetch(
     `${API_BASE_URL}${path}`,
     {
-      method: "GET",
+      ...options,
 
       headers: {
         Accept: "application/json",
+        ...(options.body
+          ? {
+              "Content-Type":
+                "application/json",
+            }
+          : {}),
+        ...options.headers,
       },
-
-      signal,
     },
   );
 
@@ -38,13 +45,27 @@ export async function apiGet<T>(
       `API request failed: ${response.status}`;
 
     try {
-      const payload = await response.json();
+      const payload =
+        await response.json();
 
-      if (typeof payload.detail === "string") {
-        message = payload.detail;
+      if (
+        typeof payload.detail ===
+        "string"
+      ) {
+        message =
+          payload.detail;
+      } else if (
+        payload.detail &&
+        typeof payload.detail ===
+          "object" &&
+        typeof payload.detail
+          .message === "string"
+      ) {
+        message =
+          payload.detail.message;
       }
     } catch {
-      // Keep the generic HTTP error.
+      // Keep generic HTTP error.
     }
 
     throw new ApiError(
@@ -54,4 +75,36 @@ export async function apiGet<T>(
   }
 
   return response.json() as Promise<T>;
+}
+
+
+export function apiGet<T>(
+  path: string,
+  signal?: AbortSignal,
+): Promise<T> {
+  return apiRequest<T>(
+    path,
+    {
+      method: "GET",
+      signal,
+    },
+  );
+}
+
+
+export function apiPost<T>(
+  path: string,
+  body: unknown,
+  signal?: AbortSignal,
+): Promise<T> {
+  return apiRequest<T>(
+    path,
+    {
+      method: "POST",
+      body: JSON.stringify(
+        body,
+      ),
+      signal,
+    },
+  );
 }

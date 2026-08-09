@@ -6,7 +6,13 @@ import {
   Search,
 } from "lucide-react";
 
-export default function TopBar() {
+interface TopBarProps {
+  onNewRun: () => void;
+}
+
+export default function TopBar({
+  onNewRun,
+}: TopBarProps) {
   return (
     <header className="fixed left-[248px] right-0 top-0 z-20 h-[72px] border-b border-white/[0.07] bg-[#07131f]/90 backdrop-blur-xl">
       <div className="flex h-full items-center justify-between px-6">
@@ -30,6 +36,7 @@ export default function TopBar() {
         <div className="flex items-center gap-3">
           <button
             type="button"
+            // onClick={onNewRun}
             className="flex h-11 items-center gap-3 rounded-xl border border-white/[0.09] bg-[#091725] px-4 text-[13px] font-medium text-slate-200 transition hover:border-white/[0.15] hover:bg-[#0d1c2b]"
           >
             <CalendarDays
@@ -62,8 +69,9 @@ export default function TopBar() {
             />
           </button>
 
-          <button
+          {/* <button
             type="button"
+            onClick={onNewRun}
             className="flex h-11 items-center gap-2.5 rounded-xl border border-blue-400/20 bg-gradient-to-r from-[#245cf5] to-[#7146ef] px-5 text-[13px] font-semibold text-white shadow-[0_8px_30px_rgba(50,80,255,0.18)] transition hover:brightness-110"
           >
             <Plus
@@ -72,7 +80,30 @@ export default function TopBar() {
             />
 
             New Run
-          </button>
+          </button> */}
+          <button
+  type="button"
+  onClick={() => {
+    console.log(
+      "[TopBar] New Run button clicked",
+    );
+
+    onNewRun();
+
+    console.log(
+      "[TopBar] onNewRun callback called",
+    );
+  }}
+  className="flex h-11 items-center gap-2.5 rounded-xl border border-blue-400/20 bg-gradient-to-r from-[#245cf5] to-[#7146ef] px-5 text-[13px] font-semibold text-white shadow-[0_8px_30px_rgba(50,80,255,0.18)] transition hover:brightness-110"
+>
+  <Plus
+    size={18}
+    strokeWidth={2.2}
+  />
+
+  New Run
+</button>
+
 
           <button
             type="button"

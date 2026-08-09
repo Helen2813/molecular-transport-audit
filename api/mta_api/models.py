@@ -237,3 +237,15 @@ class RunCreateResponse(StrictModel):
     status: RunStatus
     stage: RunStage
     created_at_utc: str
+
+
+class ArtifactItem(StrictModel):
+    path: str
+    name: str
+    category: str
+    size_bytes: int
+
+
+class ArtifactListResponse(StrictModel):
+    run_id: str
+    artifacts: list[ArtifactItem]

@@ -31,6 +31,15 @@ from mta_api.models import (
     RunDetail,
 )
 
+from mta_api.models import (
+    ArtifactItem,
+    AuditSummary,
+    ManagedRunState,
+    RunCreateResponse,
+    RunDetail,
+)
+
+
 
 RUN_ID_PATTERN = re.compile(
     r"^[A-Za-z0-9]"
@@ -777,3 +786,133 @@ def tail_run_log(
     return "".join(
         lines
     )
+
+ALLOWED_ARTIFACT_SUFFIXES = {
+    ".json",
+    ".csv",
+}
+
+
+def artifact_root_for_run(
+    run_id: str,
+) -> Path | None:
+    if run_id == "unified_audit_validation":
+        root = LEGACY_RUN_ROOT
+
+    else:
+        if not RUN_ID_PATTERN.fullmatch(
+            run_id
+        ):
+            return None
+
+        state_path = (
+            MANAGED_RUNS_ROOT
+            / run_id
+            / "run_state.json"
+        )
+
+        if not state_path.exists():
+            return None
+
+        root = (
+            MANAGED_RUNS_ROOT
+            / run_id
+            / "artifacts"
+        )
+
+    if not root.exists():
+        return None
+
+    return root
+
+
+def list_run_artifacts(
+    run_id: str,
+) -> list[ArtifactItem]:
+    root = artifact_root_for_run(
+        run_id
+    )
+
+    if root is None:
+        return []
+
+    artifacts: list[
+        ArtifactItem
+    ] = []
+
+    for path in sorted(
+        root.rglob("*")
+    ):
+        if not path.is_file():
+            continue
+
+        if (
+            path.suffix.lower()
+            not in ALLOWED_ARTIFACT_SUFFIXES
+        ):
+            continue
+
+        relative = (
+            path.relative_to(root)
+            .as_posix()
+        )
+
+        parts = relative.split(
+            "/"
+        )
+
+        category = (
+            parts[0]
+            if len(parts) > 1
+            else "run"
+        )
+
+        artifacts.append(
+            ArtifactItem(
+                path=relative,
+                name=path.name,
+                category=category,
+                size_bytes=(
+                    path.stat().st_size
+                ),
+            )
+        )
+
+    return artifacts
+
+
+def resolve_run_artifact(
+    run_id: str,
+    artifact_path: str,
+) -> Path | None:
+    root = artifact_root_for_run(
+        run_id
+    )
+
+    if root is None:
+        return None
+
+    root_resolved = root.resolve()
+
+    requested = (
+        root
+        / Path(artifact_path)
+    ).resolve()
+
+    try:
+        requested.relative_to(
+            root_resolved
+        )
+    except ValueError:
+        return None
+
+    if not requested.is_file():
+        return None
+
+    if (
+        requested.suffix.lower()
+        not in ALLOWED_ARTIFACT_SUFFIXES
+    ):
+        return None
+
+    return requested

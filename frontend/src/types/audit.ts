@@ -136,3 +136,25 @@ export interface AuditSummary {
 
   modules: ModuleResult[];
 }
+
+export interface ArtifactItem {
+  path: string;
+  name: string;
+  category: string;
+  size_bytes: number;
+}
+
+
+export interface ArtifactListResponse {
+  run_id: string;
+  artifacts: ArtifactItem[];
+}
+
+
+export interface RunCreateResponse {
+  run_id: string;
+  status: RunStatus;
+  stage: RunStage;
+  created_at_utc: string;
+}
+
